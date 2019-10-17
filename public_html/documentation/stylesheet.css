@@ -8,9 +8,15 @@ div {
 	Font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
-	margin: 14px;
+	margin: 50px;
+	border-radius: 50px;
 }
 
 li {
 	list-style: none;
+}
+
+img {
+	position: relative;
+	left: 5%;
 }

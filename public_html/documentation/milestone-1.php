@@ -34,11 +34,13 @@
 					<p><h1>Persona</h1><hr><br>
 								<h3>Stan, The man</h3>
 								<p>Stan is a young individual who spends most of their time organizing and setting up various projects.<br>
-								stan is looking for other's in the same age demographic to employ. He is an entrepreneur at the age<br>
+								Stan is looking for other coders in the same age demographic to employ. He is an entrepreneur at the age<br>
 									of 28 looking to hire front-end and back-end (full-stack) developers.<br>
 								Stan has had a career in web/app development for over 10 years. Mr Stan, the man is looking for Portfolio websites<br>
 									that excite them and
-									will draw attention to small detail when it comes to their Portfolio website (overall good design skills.)</p><hr>
+									will draw attention to small detail when it comes to their Portfolio website (overall good design skills.)
+								He's been very stressed with running his web development company on his own lately,
+									and would like people he can relate to and is well oriented with working in high stress situations.</p><hr>
 			</div>
 			</body>
 </html>
