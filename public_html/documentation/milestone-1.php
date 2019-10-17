@@ -1,17 +1,44 @@
-<!DOCTYPE>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Purpose, Audience, Goal</title>
-</head>
-	<body>
-		<h1>Purpose</h1>
-			<ul>
-				<li>To sell the cohort on following my twitch and youtube channel</li>
-			</ul>
-		<h1>Audience</h1>
-			<ul>
-				<li>My cohort in the deep dive coders bootcamp</li>
-			</ul>
-	</body>
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+		<meta charset="UTF-8">
+		<title>Purpose, Audience, Goal</title>
+			<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		</head>
+			<body>
+			<div>
+				<p><h1>Purpose, Audience, Goal</h1>
+
+				<ul>
+					<li><h2>Purpose</h2><br>
+						<ul>
+							<li>To showcase my skills and strengths for future employers or clients.<hr></li>
+					</ul>
+				</li>
+
+						<li><h2>Audience</h2><br>
+							<ul>
+								<li>Local business owners and employers.<hr></li>
+					</ul>
+				</li>
+							<li><h2>Goal</h2><br>
+								<ul>
+									<li>My first step is to gain employment whether that is full time or part time.<br></li>
+									<li>To network with other like-minded people who may want to start a project with me.<br></li>
+									<li>Attract local business owners (or freelance clients) to contract and design their website and/or app.<br></li>
+									<li>A page that gets the viewer excited to get in touch, and is user friendly for contacting me.<br><hr></li>
+								</ul>
+							</li>
+				</ul><br>
+				<img src="photo-1526378722484-bd91ca387e72.webp" alt="Stan, The Man"/>
+					<p><h1>Persona</h1><hr><br>
+								<h3>Stan, The man</h3>
+								<p>Stan is a young individual who spends most of their time organizing and setting up various projects.<br>
+								stan is looking for other's in the same age demographic to employ. He is an entrepreneur at the age<br>
+									of 28 looking to hire front-end and back-end (full-stack) developers.<br>
+								Stan has had a career in web/app development for over 10 years. Mr Stan, the man is looking for Portfolio websites<br>
+									that excite them and
+									will draw attention to small detail when it comes to their Portfolio website (overall good design skills.)</p><hr>
+			</div>
+			</body>
 </html>
