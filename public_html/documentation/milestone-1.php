@@ -37,10 +37,11 @@
 								Stan is looking for other coders in the same age demographic to employ. He is an entrepreneur at the age<br>
 									of 28 looking to hire front-end and back-end (full-stack) developers.<br>
 								Stan has had a career in web/app development for over 10 years. Mr Stan, the man is looking for Portfolio websites<br>
-									that excite them and
-									will draw attention to small detail when it comes to their Portfolio website (overall good design skills.)
+									that excite them about development and
+									will draw attention to detail when it comes to their Portfolio website (overall good design skills.)
 								He's been very stressed with running his web development company on his own lately,
 									and would like people he can relate to and is well oriented with working in high stress situations.</p><hr>
+								<p><strong>User Story: "I want a developer compassionate about technology that is as analytical as they are a feeler." - Stan, The Man </strong></p>
 			</div>
 			</body>
 </html>
