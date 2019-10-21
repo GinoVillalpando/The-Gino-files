@@ -24,7 +24,8 @@
 					<p style="text-align: right">The about me section will be short but informative with the content the reader is immediately looking for.</p>
 					<p style="text-align: right">It will have reasonable space between lines to help readability and provide the information to the user faster.</p>
 					<p style="text-align: right">My about me tone will indicate that i'm excited about software and web development, Because I'd like to work with like minded</p>
-					<p style="text-align: right">individuals that get excited about technology.</p><hr>
+					<p style="text-align: right">individuals that get excited about technology.</p>
+					<p style="text-align: right"> an additional drop box that show links to my projects and other professional history </p>
 
 				<ul>
 					<li><h2><strong>Core Skills and Programming Languages (PL) </strong></h2></li>
@@ -39,6 +40,6 @@
 					<p style="text-align: right">Contact footer will contain buttons of social media platforms you can contact me on</p>
 					<p style="text-align: right">Contacts will consist of LinkedIn, Discord(or slack), Twitter </p>
 			</div>
-		<img src="iPhone%20XR-XS%20Max%20–%201.png" alt="Wireframe for iphone X 2:1 ratio" <img src="desktopwireframe.png" alt="Wireframe for desktop view 16:9 ratio"
+		<img src="iPhone%20XR-XS%20Max%20–%201.png" alt="Wireframe for iphone X 2:1 ratio" height="750px"> <img src="desktopwireframe.png" alt="Wireframe for desktop view 16:9 ratio" width="900px" height="750px">
 		</body>
 </html>
