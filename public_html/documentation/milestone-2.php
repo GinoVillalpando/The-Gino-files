@@ -22,7 +22,7 @@
 
 					<p style="text-align: right">This section will be a short overview on who I am and my professional accomplishments as a web developer.</p>
 					<p style="text-align: right">The about me section will be short but informative with the content the reader is immediately looking for.</p>
-					<p style="text-align: right">It will have reasonable space between lines to help readability and provide the information to the user faster</p>
+					<p style="text-align: right">It will have reasonable space between lines to help readability and provide the information to the user faster.</p>
 					<p style="text-align: right">My about me tone will indicate that i'm excited about software and web development, Because I'd like to work with like minded</p>
 					<p style="text-align: right">individuals that get excited about technology.</p><hr>
 
@@ -34,10 +34,11 @@
 
 				<ul>
 					<li><h2 style="text-align: right"><strong>Contact(Footer)</strong></h2></li>
+				</ul>
 					<p style="text-align: right">A Contact footer at the bottom of the window that stays static while you scroll through the page</p>
 					<p style="text-align: right">Contact footer will contain buttons of social media platforms you can contact me on</p>
 					<p style="text-align: right">Contacts will consist of LinkedIn, Discord(or slack), Twitter </p>
-				</ul>
 			</div>
+		<img src="iPhone%20XR-XS%20Max%20–%201.png" alt="Wireframe for iphone X 2:1 ratio" <img src="desktopwireframe.png" alt="Wireframe for desktop view 16:9 ratio"
 		</body>
 </html>
