@@ -39,7 +39,8 @@
 					<p style="text-align: right">A Contact footer at the bottom of the window that stays static while you scroll through the page</p>
 					<p style="text-align: right">Contact footer will contain buttons of social media platforms you can contact me on</p>
 					<p style="text-align: right">Contacts will consist of LinkedIn, Discord(or slack), Twitter </p>
+				<img src="PWP%20WIREFRAME.png" alt="Wireframe for iphone X 2:1 ratio" />
 			</div>
-		<img src="iPhone%20XR-XS%20Max%20–%201.png" alt="Wireframe for iphone X 2:1 ratio" height="750px"> <img src="desktopwireframe.png" alt="Wireframe for desktop view 16:9 ratio" width="900px" height="750px">
+
 		</body>
 </html>
