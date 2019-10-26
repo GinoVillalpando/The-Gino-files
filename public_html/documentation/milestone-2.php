@@ -25,7 +25,7 @@
 					<p style="text-align: right">It will have reasonable space between lines to help readability and provide the information to the user faster.</p>
 					<p style="text-align: right">My about me tone will indicate that i'm excited about software and web development, Because I'd like to work with like minded</p>
 					<p style="text-align: right">individuals that get excited about technology.</p>
-					<p style="text-align: right"> an additional drop box that show links to my projects and other professional history </p>
+					<p style="text-align: right"> an additional drop box that show links to my projects and other professional history </p><hr/>
 
 				<ul>
 					<li><h2><strong>Core Skills and Programming Languages (PL) </strong></h2></li>
@@ -38,8 +38,11 @@
 				</ul>
 					<p style="text-align: right">A Contact footer at the bottom of the window that stays static while you scroll through the page</p>
 					<p style="text-align: right">Contact footer will contain buttons of social media platforms you can contact me on</p>
-					<p style="text-align: right">Contacts will consist of LinkedIn, Discord(or slack), Twitter </p>
-				<img src="PWP%20WIREFRAME.png" alt="Wireframe for iphone X 2:1 ratio" />
+					<p style="text-align: right">Contacts will consist of LinkedIn, Slack, Email and Twitter </p><hr/>
+				<div>
+				<img src="homeScreenFullscreenPwp.png" alt="Wireframe for iphone X 2:1 ratio" />
+				<img id="floatImage" src="homeScreenMobilePwp.png" alt="Wireframe for fullscreen"
+			</div>
 			</div>
 
 		</body>

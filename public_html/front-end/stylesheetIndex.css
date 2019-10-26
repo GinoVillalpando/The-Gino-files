@@ -1,0 +1,15 @@
+div {
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 50px;
+	margin: 50px;
+	background-image: url("https://images.unsplash.com/photo-1568209865332-a15790aed756?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+	background-color: #333333;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	text-shadow: -2px 1px black, 0 1px black, 1px 0 black, 0 -1px black;
+	position: relative;
+}
+

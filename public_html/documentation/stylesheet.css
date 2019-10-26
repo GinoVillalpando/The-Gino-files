@@ -9,7 +9,7 @@ div {
 	font-style: normal;
 	font-variant: normal;
 	margin: 50px;
-	padding: 200px;
+	padding: 100px;
 	border-radius: 50px;
 }
 
@@ -18,11 +18,18 @@ li {
 }
 
 img {
-	position: relative;
-	left: 40px;
+	position: absolute;
+	width: 900px;
+	left: 2%;
 }
 
 .fontSize {
 	font-size: 24px;
 	text-align: right;
+}
+
+#floatImage {
+	position: absolute;
+	left: 50%;
+	height: 1100px;
 }
