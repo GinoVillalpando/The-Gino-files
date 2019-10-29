@@ -18,9 +18,10 @@ li {
 }
 
 img {
-	position: absolute;
+	position: relative;
 	width: 900px;
-	left: 2%;
+	padding: 10px 2rem 10px 0;
+	margin: 50px;
 }
 
 .fontSize {
@@ -28,8 +29,3 @@ img {
 	text-align: right;
 }
 
-#floatImage {
-	position: absolute;
-	left: 50%;
-	height: 1100px;
-}

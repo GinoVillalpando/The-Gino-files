@@ -37,8 +37,14 @@
 									that excite them about development and
 									will draw attention to detail when it comes to their Portfolio website (overall good design skills.)
 								He's been very stressed with running his web development company on his own lately,
-									and would like people he can relate to and is well oriented with working in high stress situations.<hr>
-								<p><strong>User Story: "I want a developer compassionate about technology that is as analytical as they are a feeler." - Stan, The Man </strong></p><br>
+									and would like people he can relate to and is well oriented with working in high stress situations.</p><hr />
+							<h3>Technology</h3>
+							<p>Stan uses an Hp laptop running windows 10 and uses an iphone X when they are not near their computer.</p><hr />
+							<h3>Frustrations and Needs</h3>
+							<p>Stan gets frustrated when portfolios don't have a clear objective or the functionality to contact the individual.
+							stan needs a footer that will have buttons or links for other ways they can get in touch with the developer they are trying to hire.
+							stan also needs links and information on the developers professional history.</p><hr />
+								<p><strong>User Story: "I want a developer compassionate about technology that has a portfolio that is accessible, refers to their professional history and has contact features." - Stan, The Man </strong></p><br>
 			</div>
 			</body>
 </html>
