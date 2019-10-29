@@ -9,14 +9,15 @@
 			<div>
 				<p><h1>Purpose, Audience, Goal</h1>
 
-				<ul>
-					<li><h2>Purpose</h2><hr>
-							<li>To showcase my skills and strengths for future employers or clients.</li>
-						<li><h2>Audience</h2><hr>
-								<li>My website will target Entrepreneurs, Local business owners, and employers for hire.</li>
-				</ul>
 
-			<img src="stanimage.webp" alt="Stan, The Man"/>
+			<h2>Purpose</h2><hr>
+				<ul>
+				<li>To showcase my skills and strengths for future employers or clients.</li>
+				</ul>
+				<h2>Audience</h2><hr>
+				<ul>
+				<li>My website will target Entrepreneurs, Local business owners, and employers for hire.</li>
+				</ul>
 
 			<h2>Goal</h2><hr><br>
 				<ul>
@@ -25,7 +26,9 @@
 					<li>Attract local business owners (or freelance clients) to contract and design their website and/or app.<br></li>
 					<li>A page that gets the viewer excited to get in touch, and is user friendly for contacting me.<br></li>
 				</ul>
-			<h1>Persona</h1><hr><br>
+
+				<img src="stanimage.webp" alt="Stan, The Man"/>
+			<h1>Persona</h1><hr>
 				<h3>Stan, The man</h3>
 				<p>Stan is a young individual who spends most of their time organizing and setting up various projects.<br>
 				Stan is looking for other coders in the same age demographic to employ. He is an entrepreneur at the age<br>

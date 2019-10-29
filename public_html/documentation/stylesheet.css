@@ -19,9 +19,9 @@ li {
 
 img {
 	position: relative;
+	left: 15%;
 	width: 900px;
-	padding: 10px 2rem 10px 0;
-	margin: 50px;
+	padding: 50px 0 50px 5rem;
 }
 
 .fontSize {
