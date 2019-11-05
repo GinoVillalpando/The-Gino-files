@@ -41,7 +41,7 @@
 				<p style="text-align: right">Contacts will consist of LinkedIn, Slack, Email and Twitter </p><hr/>
 			<div>
 				<img src="homeScreenFullscreenPwp.png" alt="Wireframe for iphone X 2:1 ratio" />
-				<img id="floatImage" src="homeScreenMobilePwp.png" alt="Wireframe for fullscreen" />
+				<img src="homeScreenMobilePwp.png" alt="Wireframe for fullscreen" />
 			</div>
 			</div>
 	=</body>
