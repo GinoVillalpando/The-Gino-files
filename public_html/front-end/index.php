@@ -111,6 +111,49 @@
 	</div>
 </section>
 
+<!-- drop-downs with further information on some of my core skills-->
+<section>
+	<div class="accordion" id="accordionExample">
+		<div class="card bg-dark text-white">
+			<div class="card-header" id="headingOne">
+				<h2 class="mb-0">
+					<button class="btn text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						Collapsible Group Item #1
+					</button>
+				</h2>
+			</div>
+		</div>
+			<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				<div class="card-body">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+					dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+					ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+					fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+					mollit anim id est laborum.
+				</div>
+			</div>
+	</div>
+	<div class="card bg-dark text-white">
+		<div class="card-header" id="headingTwo">
+			<h2 class="mb-0">
+			<button class="btn text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				Collapsible Group Item #2
+			</button>
+			</h2>
+		</div>
+		<div id="collapseTwo" class="collapse bg-secondary" aria-labelledby="headingTwo" data-parent="#accordionExample">
+			<div class="card-body">
+				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+				moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+				Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+				shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+				proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+				aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+			</div>
+		</div>
+	</div>
+</section>
+
 
 </body>
 </html>
