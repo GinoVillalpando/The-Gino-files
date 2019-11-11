@@ -2,3 +2,4 @@
 /.idea
 */not-part-of-project
 */vendor
+**/php/mail-config.php
