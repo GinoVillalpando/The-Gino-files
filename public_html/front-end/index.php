@@ -104,8 +104,20 @@
 			technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the
 			content itself (e.g. the visible text), or is included through alternative means, such as additional text
 			hidden with the .sr-only class.</div>
-		<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-		<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+		<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Lorem ipsum
+			dolor sit amet, consectetur adipiscing elit. In posuere tristique tortor, cursus volutpat lorem semper sed.
+			Cras rutrum hendrerit sem et cursus. Quisque venenatis, sapien a molestie ullamcorper, leo tellus dapibus tortor,
+			ut gravida nunc dolor eget leo. In sodales ipsum et eros blandit dapibus. Vivamus sit amet auctor risus.
+			Pellentesque dictum pharetra est, pulvinar ultricies augue sagittis ut. Vivamus vitae velit ut dui convallis euismod.
+			Ut eu tellus et nunc molestie mattis. Pellentesque quam ante, imperdiet ac aliquet sit amet, vehicula ut turpis.
+			Morbi sit amet nunc at augue imperdiet imperdiet non congue libero. Quisque venenatis sollicitudin velit ac dapibus.
+			Phasellus volutpat, lacus in malesuada scelerisque, ex ligula sagittis dolor, id ullamcorper velit sem vitae metus.
+			Suspendisse at mattis metus. Curabitur a mi vestibulum, sollicitudin odio sit amet, aliquet ligula.</div>
+		<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Suspendisse
+			dictum tempor vehicula. Vivamus ac magna id sapien vehicula hendrerit. Sed dapibus erat id lacus tempor faucibus
+			non a lorem. Mauris nec facilisis dolor, sed euismod est. Suspendisse placerat diam ut eleifend tincidunt.
+			Suspendisse vel felis ultrices, sollicitudin est interdum, auctor tortor. Quisque id tincidunt sapien, eget
+			mattis eros. Quisque dui felis, porttitor vel condimentum ut, tincidunt sed enim.</div>
 	</div>
 </section>
 
