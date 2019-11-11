@@ -121,7 +121,7 @@
 				</h2>
 			</div>
 		</div>
-			<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+			<div id="collapseOne" class="collapse active" aria-labelledby="headingOne" data-parent="#accordionExample">
 				<div class="card-body">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 					dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
