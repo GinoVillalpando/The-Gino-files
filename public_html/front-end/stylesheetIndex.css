@@ -29,3 +29,13 @@ button {
 .bg-secondary {
 	background-color: rgb(24, 26, 27)!important;
 }
+
+.bg-color-contact {
+	background-color: indigo;
+}
+
+
+form {
+	align-content: center;
+	margin-top: 2em;
+}

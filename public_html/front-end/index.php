@@ -26,7 +26,7 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-<!-- nav items aligned to the right and is shown in the menu after pressing -->
+		<!-- nav items aligned to the right and is shown in the menu after pressing -->
 		<div class="collapse navbar-collapse text-right" id="navbarNav">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
@@ -53,16 +53,16 @@
 		<h1 class="display-4">Visionary Developer Of The Future.</h1>
 		<p class="lead">Compassionate learner of programming with a genuine interest in technological advances.</p>
 		<hr class="my-4" />
-		<a class="btn btn-secondary btn-lg" href="#professionalBackground" role="button">Learn more</a>
+		<a class="btn btn-secondary text-white btn-lg" href="#professionalBackground" role="button">Learn more</a>
 	</div>
 </section>
 
 
 <!-- vertical pill navs with professional background links and projects for fullscreen-->
 <a id="professionalBackground"></a>
-<section class="d-none d-lg-block mx-2">
+<section class="container-fluid d-none d-lg-block my-3">
 	<div class="row mx-auto">
-		<div class="col-4 my-5">
+		<div class="col-4 my-3">
 			<div class="nav flex-column nav-pills bg-dark" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 				<a class="nav-link active bg-dark py-4 text-white" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><h6>Home</h6></a>
 				<a class="nav-link bg-dark py-4 text-white" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><h6>Profile</h6></a>
@@ -71,7 +71,7 @@
 			</div>
 		</div>
 		<div class="col-8 my-5 px-2 d-block">
-			<div class="tab-content" id="v-pills-tabContent">
+			<div class="tab-content align-items-center" id="v-pills-tabContent">
 				<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive
 					technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the
 					content itself (e.g. the visible text), or is included through alternative means, such as additional text
@@ -87,7 +87,7 @@
 
 <!-- horizontal nav pills with the content of professional background and links to projects -->
 <section class="d-lg-none my-5">
-	<ul class="nav nav-pills my-2 ml-3" id="pills-tab" role="tablist">
+	<ul class="nav nav-pills my-2 ml-3 align-items-center" id="pills-tab" role="tablist">
 		<li class="nav-item">
 			<a class="nav-link active bg-dark px-4 mx-3 text-white" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><h6>Home</h6></a>
 		</li>
@@ -123,7 +123,7 @@
 
 <!-- drop-downs with further information on some of my core skills-->
 <section>
-	<div class="accordion" id="accordionExample">
+	<div class="accordion d-lg-none" id="accordionExample">
 		<div class="card bg-dark text-white">
 			<div class="card-header" id="headingOne">
 				<h2 class="mb-0">
@@ -133,25 +133,25 @@
 				</h2>
 			</div>
 		</div>
-			<div id="collapseOne" class="collapse active" aria-labelledby="headingOne" data-parent="#accordionExample">
-				<div class="card-body">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-					dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-					ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-					fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-					mollit anim id est laborum.
-				</div>
+		<div id="collapseOne" class="collapse active" aria-labelledby="headingOne" data-parent="#accordionExample">
+			<div class="card-body">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+				fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+				mollit anim id est laborum.
 			</div>
+		</div>
 	</div>
-	<div class="card bg-dark text-white">
+	<div class="card bg-dark text-white d-lg-none">
 		<div class="card-header" id="headingTwo">
 			<h2 class="mb-0">
-			<button class="btn text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-				Collapsible Group Item #2
-			</button>
+				<button class="btn text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					Collapsible Group Item #2
+				</button>
 			</h2>
 		</div>
-		<div id="collapseTwo" class="collapse bg-secondary" aria-labelledby="headingTwo" data-parent="#accordionExample">
+		<div id="collapseTwo" class="collapse m-0 bg-secondary" aria-labelledby="headingTwo" data-parent="#accordionExample">
 			<div class="card-body">
 				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
 				moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
@@ -163,60 +163,74 @@
 		</div>
 	</div>
 </section>
-<!--
-Begin Sample Contact Form
 
-Create your own contact form.
-Do not copy and paste this one.
--->
-<form id="gino-contact-form" action="../php/" method="post">
-	<div class="form-group">
-		<label for="contactDemoName">Name <span class="text-danger">*</span></label>
-		<div class="input-group">
-			<div class="input-group-prepend">
-				<span class="input-group-text"></span>
-				<i class="fa fa-user" aria-hidden="true"></i>
-			</div>
-			<input type="text" class="form-control" id="contactDemoName" name="contactDemoName" placeholder="Name">
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="contactDemoEmail">Email <span class="text-danger">*</span></label>
-		<div class="input-group">
-			<div class="input-group-prepend">
-				<span class="input-group-text"></span>
-				<i class="fa fa-envelope" aria-hidden="true"></i>
-			</div>
-			<input type="email" class="form-control" id="contactDemoEmail" name="contactDemoEmail" placeholder="Email">
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="contactDemoSubject">Subject</label>
-		<div class="input-group">
-			<div class="input-group-prepend">
-				<span class="input-group-text"></span>
-				<i class="fa fa-pencil" aria-hidden="true"></i>
-			</div>
-			<input type="text" class="form-control" id="contactDemoSubject" name="contactDemoSubject" placeholder="Subject">
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="contactDemoMessage">Message <span class="text-danger">*</span></label>
-		<div class="input-group">
-			<div class="input-group-prepend">
-				<span class="input-group-text"></span>
-				<i class="fa fa-comment" aria-hidden="true"></i>
-			</div>
-			<textarea class="form-control" rows="5" id="contactDemoMessage" name="contactDemoMessage" placeholder="I <3 CopyPasta :D~ (2000 characters max)"></textarea>
-		</div>
-	</div>
+<div class="col-lg-7 bg-secondary">
+	<header><h3 class="text-white text-center mb-0 mt-1 display-4">My Creative Side: Edit Done With Adobe</h3></header>
+</div>
 
-	<!-- reCAPTCHA -->
-	<div class="g-recaptcha" data-sitekey="6LexKsIUAAAAABMZKziTTiDVrw12OXFG-z2mMguO"></div>
+<!-- embedded youtube video showcasing my creative skills-->
+<div class="container-fluid bg-light text-white">
+	<div class="row">
+		<div class="col-lg-7 mx-auto d-inline-block">
+			<div class="embed-responsive embed-responsive-16by9 my-3">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/c8rv23u_8Es?rel=0&amp;autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
 
-	<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-	<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-</form>
+		<!-- contact form for The Gino Files-->
+		<div class="col-lg-5 bg-dark p-3 mx-auto align-text-bottom">
+			<form id="gino-contact-form" action="../php/" method="post">
+				<div class="form-group">
+					<label for="contactDemoName">Name <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"></span>
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+						<input type="text" class="form-control" id="contactDemoName" name="contactDemoName" placeholder="Name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="contactDemoEmail">Email <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"></span>
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<input type="email" class="form-control" id="contactDemoEmail" name="contactDemoEmail" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="contactDemoSubject">Subject</label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"></span>
+							<i class="fa fa-pencil" aria-hidden="true"></i>
+						</div>
+						<input type="text" class="form-control" id="contactDemoSubject" name="contactDemoSubject" placeholder="Subject">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="contactDemoMessage">Message <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"></span>
+							<i class="fa fa-comment" aria-hidden="true"></i>
+						</div>
+						<textarea class="form-control" rows="5" id="contactDemoMessage" name="contactDemoMessage" placeholder="Send me a message if you're looking to hire or collaborate on a project! (2000 characters max)"></textarea>
+					</div>
+				</div>
+
+				<!-- reCAPTCHA -->
+				<div class="g-recaptcha" data-sitekey="6LexKsIUAAAAABMZKziTTiDVrw12OXFGz2mMguO"></div>
+
+				<button class="btn btn-dark text-white" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+				<button class="btn btn-light" type="reset"><i class="fa fa-ban"></i> Reset</button>
+			</form>
+		</div>
+	</div>
+</div>
+
 
 <!--empty area for form error/success output-->
 <div class="row">
@@ -224,6 +238,8 @@ Do not copy and paste this one.
 		<div id="output-area"></div>
 	</div>
 </div>
+
+
 
 </body>
 </html>
