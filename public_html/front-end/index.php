@@ -182,13 +182,18 @@
 		</div>
 	</div>
 </section>
-
-<div class="col-lg-7 bg-secondary">
-	<header><h3 class="text-white text-center mb-0 mt-1 display-4">My Creative Side: Edit Done With Adobe</h3></header>
+<div class="row container-fluid">
+	<div class="col-lg-7 bg-secondary">
+		<header><h3 class="text-white text-center mb-0 mt-1 display-4">My Creative Side: Edit Done With Adobe</h3></header>
+	</div>
+	<div class="col-lg-5 bg-secondary">
+		<header><h3 class="text-white d-none d-lg-block text-center mb-0 mt-1 display-4">Contact Me</h3></header>
+	</div>
 </div>
 
 <!-- embedded youtube video showcasing my creative skills-->
-<div class="container-fluid bg-light text-white">
+<section class=" container-fluid d-block mx-auto mb-5 pb-5 px-0">
+<div class="container-fluid bg-dark text-white">
 	<div class="row">
 		<div class="col-lg-7 mx-auto d-inline-block">
 			<div class="embed-responsive embed-responsive-16by9 my-3">
@@ -198,6 +203,7 @@
 
 		<!-- contact form for The Gino Files-->
 		<div class="col-lg-5 bg-dark p-3 mx-auto align-text-bottom">
+			<header><h3 class="text-white d-lg-none text-center mb-0 mt-1 display-4">Contact Me</h3></header>
 			<form id="gino-contact-form" action="../php/index.php" method="post">
 				<div class="form-group">
 					<label for="contactDemoName">Name <span class="text-danger">*</span></label>
@@ -249,7 +255,7 @@
 		</div>
 	</div>
 </div>
-
+</section>
 
 <!--empty area for form error/success output-->
 <div class="row">
@@ -257,6 +263,32 @@
 		<div id="output-area"></div>
 	</div>
 </div>
+
+<!-- footer for pwp -->
+<section class="container-fluid sticky-bottom fixed-bottom border border-secondary bg-light mb-0 py-1 align-items-center">
+	<blockquote class="text-center mb-0">
+		<footer>
+			<div class="row">
+				<div class="col-3 px-0">
+					<img src="imagesIndex/envelope-icon.png" class="d-inline-block align-center" alt="Nav bar Icon">
+					<h4 class="text-dark">Email</h4>
+				</div>
+				<div class="col-3 px-0">
+					<img src="imagesIndex/twitter-icon.png" class="d-inline-block align-center" alt="Nav bar Icon">
+					<h4 class="text-dark">Follow</h4>
+				</div>
+				<div class="col-3 px-0">
+					<img src="imagesIndex/slack-icon.png" class="d-inline-block align-center" alt="Nav bar Icon">
+					<h4 class="text-dark">Slack</h4>
+				</div>
+				<div class="col-3 px-0">
+					<img src="imagesIndex/linkedin-icon.png" class="d-inline-block align-center" alt="Nav bar Icon">
+					<h4 class="text-dark">Linkedin</h4>
+				</div>
+			</div>
+		</footer>
+	</blockquote>
+</section>
 
 
 
