@@ -44,3 +44,11 @@ form {
 	align-content: center;
 	margin-top: 2em;
 }
+
+.mb-5 {
+	margin-bottom: 10rem!important;
+}
+
+.pb-5 {
+	padding-bottom: 6rem!important;
+}

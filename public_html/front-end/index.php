@@ -79,7 +79,7 @@
 
 <!-- vertical pill navs with professional background links and projects for fullscreen-->
 <a id="professionalBackground"></a>
-<section class="container-fluid d-none d-lg-block my-3">
+<section class="container-fluid d-none d-lg-block my-5">
 	<div class="row mx-auto">
 		<div class="col-4 my-3">
 			<div class="nav flex-column nav-pills bg-dark" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -147,7 +147,7 @@
 			<div class="card-header" id="headingOne">
 				<h2 class="mb-0">
 					<button class="btn text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						Collapsible Group Item #1
+						<h6 class="text-right">Collapsible Group Item #1</h6>
 					</button>
 				</h2>
 			</div>
@@ -166,7 +166,7 @@
 		<div class="card-header" id="headingTwo">
 			<h2 class="mb-0">
 				<button class="btn text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					Collapsible Group Item #2
+					<h6 class="text-right">Collapsible Group Item #2</h6>
 				</button>
 			</h2>
 		</div>
@@ -202,10 +202,12 @@
 		</div>
 
 		<!-- contact form for The Gino Files-->
+
 		<div class="col-lg-5 bg-dark p-3 mx-auto align-text-bottom">
 			<header><h3 class="text-white d-lg-none text-center mb-0 mt-1 display-4">Contact Me</h3></header>
 			<form id="gino-contact-form" action="../php/index.php" method="post">
 				<div class="form-group">
+					<a id="contactMe"></a>
 					<label for="contactDemoName">Name <span class="text-danger">*</span></label>
 					<div class="input-group">
 						<div class="input-group-prepend">
@@ -247,10 +249,10 @@
 				</div>
 
 				<!-- reCAPTCHA -->
-				<div class="g-recaptcha" data-sitekey="6LexKsIUAAAAABMZKziTTiDVrw12OXFG-z2mMguO"></div>
+				<div class="g-recaptcha mb-2" data-sitekey="6LexKsIUAAAAABMZKziTTiDVrw12OXFG-z2mMguO"></div>
 
 				<button class="btn btn-secondary text-white" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-				<button class="btn btn-light" type="reset"><i class="fa fa-ban"></i> Reset</button>
+				<button class="btn btn-light align-right" type="reset"><i class="fa fa-ban"></i> Reset</button>
 			</form>
 		</div>
 	</div>
@@ -270,20 +272,23 @@
 		<footer>
 			<div class="row">
 				<div class="col-3 px-0">
+					<a href="#contactMe">
 					<img src="imagesIndex/envelope-icon.png" class="d-inline-block align-center" alt="Nav bar Icon">
-					<h4 class="text-dark">Email</h4>
+						<h4 class="text-dark">Email</h4></a>
 				</div>
 				<div class="col-3 px-0">
+					<a href="https://twitter.com/GinoVillalpando" target="_blank">
 					<img src="imagesIndex/twitter-icon.png" class="d-inline-block align-center" alt="Nav bar Icon">
-					<h4 class="text-dark">Follow</h4>
+						<h4 class="text-dark">Follow</h4></a>
 				</div>
 				<div class="col-3 px-0">
 					<img src="imagesIndex/slack-icon.png" class="d-inline-block align-center" alt="Nav bar Icon">
 					<h4 class="text-dark">Slack</h4>
 				</div>
 				<div class="col-3 px-0">
+					<a href="https://www.linkedin.com/in/gino-villalpando/" target="_blank">
 					<img src="imagesIndex/linkedin-icon.png" class="d-inline-block align-center" alt="Nav bar Icon">
-					<h4 class="text-dark">Linkedin</h4>
+					<h4 class="text-dark">Linkedin</h4></a>
 				</div>
 			</div>
 		</footer>
