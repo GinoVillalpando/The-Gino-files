@@ -64,3 +64,12 @@ form {
 .navbar-brand {
 	margin-right: 0.1rem!important;
 }
+
+.body-text-size {
+	font-size: 24px;
+}
+
+.alert-success {
+	color: black!important;
+	text-shadow: 2px 2px 4px white!important;
+}

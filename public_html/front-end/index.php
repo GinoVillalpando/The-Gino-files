@@ -34,7 +34,7 @@
 </head>
 
 <!-- body of The-Gino-Files contents -->
-<body>
+<body class="animated fadeIn slow">
 
 <!-- nav bar with icon image, a header with name and an icon for the menu that shows on small screens -->
 <div class="container-fluid p-0 text-white">
@@ -90,18 +90,22 @@
 <!--				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><h6>Settings</h6></a>-->
 			</div>
 		</div>
-		<div class="col-8 my-5 px-2 d-block">
+		<div class="col-8 my-2 px-2 d-block">
 			<div class="tab-content align-items-center" id="v-pills-tabContent">
-				<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive
-					technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the
-					content itself (e.g. the visible text), or is included through alternative means, such as additional text
-					hidden with the .sr-only class.</div>
+				<div class="tab-pane fade show active body-text-size" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+					<p>Solution-driven web developer excelling in highly collaborative or solo work environment, finding solutions
+						to challenges and focuses on client satisfaction.</p>
+					<p>Proven experience with HTML, CSS, JavaScript, JQuery, PHP, mySQL, Bootstrap, REST, React, and JSX.</p>
+					<p>Experienced in building product for desktop, and mobile app users, meeting the highest quality standards
+						for web design, user experience, best practices, usability and meeting deadlines.</p>
+					<p>Responding to challenges by designing, developing solutions and building web applications aligned to customer’s services.</p>
+					Translating solutions into code and working across many different APIs, third-party integrations and databases.
+				</div>
 				<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
 				<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
 				<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
 			</div>
 		</div>
-	</div>
 </section>
 
 
@@ -120,10 +124,14 @@
 	</ul>
 	<div class="tab-content my-4 mx-4" id="pills-tabContent">
 		<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-			Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive
-			technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the
-			content itself (e.g. the visible text), or is included through alternative means, such as additional text
-			hidden with the .sr-only class.</div>
+			<p>Solution-driven web developer excelling in highly collaborative or solo work environment, finding solutions
+				to challenges and focuses on client satisfaction.</p>
+			<p>Proven experience with HTML, CSS, JavaScript, JQuery, PHP, mySQL, Bootstrap, REST, React, and JSX.</p>
+			<p>Experienced in building product for desktop, and mobile app users, meeting the highest quality standards
+				for web design, user experience, best practices, usability and meeting deadlines.</p>
+			<p>Responding to challenges by designing, developing solutions and building web applications aligned to customer’s services.</p>
+			Translating solutions into code and working across many different APIs, third-party integrations and databases.
+		</div>
 		<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Lorem ipsum
 			dolor sit amet, consectetur adipiscing elit. In posuere tristique tortor, cursus volutpat lorem semper sed.
 			Cras rutrum hendrerit sem et cursus. Quisque venenatis, sapien a molestie ullamcorper, leo tellus dapibus tortor,
@@ -148,7 +156,7 @@
 			<div class="card-header" id="headingOne">
 				<h2 class="mb-0">
 					<button class="btn text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						<h6 class="text-right">Collapsible Group Item #1</h6>
+						Collapsible Group Item #1
 					</button>
 				</h2>
 			</div>
@@ -167,7 +175,7 @@
 		<div class="card-header" id="headingTwo">
 			<h2 class="mb-0">
 				<button class="btn text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					<h6 class="text-right">Collapsible Group Item #2</h6>
+					Collapsible Group Item #2
 				</button>
 			</h2>
 		</div>
@@ -198,7 +206,7 @@
 	<div class="row">
 		<div class="col-lg-7 mx-auto d-inline-block">
 			<div class="embed-responsive embed-responsive-16by9 my-3">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/c8rv23u_8Es?rel=0&amp;autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/c8rv23u_8Es?rel=0&amp;autoplay=1&mute=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 
@@ -249,22 +257,41 @@
 				</div>
 
 				<!-- reCAPTCHA -->
-				<div class="g-recaptcha mb-2" data-sitekey="6LexKsIUAAAAABMZKziTTiDVrw12OXFG-z2mMguO"></div>
+				<div class="g-recaptcha my-2 " data-sitekey="6LexKsIUAAAAABMZKziTTiDVrw12OXFG-z2mMguO"></div>
+				<button class="btn btn-secondary mb-5 text-white" type="submit" data-toggle="modal" data-target="#popUpModal"><i class="fa fa-paper-plane"></i> Send</button>
+				<button class="btn btn-light mb-5 " type="reset"><i class="fa fa-ban"></i> Reset</button>
 
-				<button class="btn btn-secondary text-white" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-				<button class="btn btn-light align-right" type="reset"><i class="fa fa-ban"></i> Reset</button>
+				<!--empty area for form error/success output-->
+
+				<!-- Modal -->
+				<div class="modal fade" id="popUpModal" tabindex="-1" role="dialog" aria-labelledby="output-area" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content bg-dark">
+							<div class="modal-header">
+								<h5 class="modal-title" id="output-area"></h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								Thank you for contacting me, I will email you back soon!
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+<!--				<div class="row container-fluid">-->
+<!--					<div class="col-xs-12 my-auto ml-auto d-inline-block pb-5">-->
+<!--						<div id="output-area"></div>-->
+<!--					</div>-->
+<!--				</div>-->
 			</form>
 		</div>
 	</div>
 </div>
 </section>
-
-<!--empty area for form error/success output-->
-<div class="row container-fluid mb-auto pb-5">
-	<div class="col-xs-12">
-		<div id="output-area"></div>
-	</div>
-</div>
 
 <!-- footer for pwp -->
 <section class="animated bounceInUp container-fluid sticky-bottom fixed-bottom shadow bg-dark mb-0 py-1 align-items-center">
@@ -272,7 +299,7 @@
 		<footer>
 				<div class="row ml-auto">
 					<div class="d-none d-lg-block my-auto ml-auto">
-						<h4>Connect With Me</h4>
+						<h4 class="text-white">Connect With Me</h4>
 					</div>
 					<div class="col-3 col-lg-2 ml-auto">
 						<a href="#contactMe">
