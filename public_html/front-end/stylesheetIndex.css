@@ -52,3 +52,15 @@ form {
 .pb-5 {
 	padding-bottom: 6rem!important;
 }
+
+.bg-dark {
+	background-color: #333333!important;
+}
+
+.btn-dark {
+	background-color: #333333!important;
+}
+
+.navbar-brand {
+	margin-right: 0.1rem!important;
+}
