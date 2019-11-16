@@ -38,7 +38,7 @@
 
 <!-- nav bar with icon image, a header with name and an icon for the menu that shows on small screens -->
 <div class="container-fluid p-0 text-white">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-opacity">
 		<a class="navbar-brand" href="index.php">
 			<img src="imagesIndex/navbarIcon.png" width="64" height="64" class="d-inline-block align-top mr-2" alt="Nav bar Icon" />
 			<h5 class="animated bounceInDown d-inline-block text-center display-4">Gino</h5> <h5 class="animated bounceInDown active d-lg-none d-inline-block text-center display-4">V.</h5> <h5 class="animated bounceInDown d-none d-lg-inline-block text-center display-4">Villalpando</h5></a>
@@ -78,21 +78,21 @@
 </section>
 
 
-<!-- vertical pill navs with professional background links and projects for fullscreen-->
 <a id="professionalBackground"></a>
+<!-- vertical pill navs with objective, skills/languages, and project links - FULLSCREEN -->
 <section class="container-fluid d-none d-lg-block my-5">
 	<div class="row mx-auto">
 		<div class="col-4 my-3">
 			<div class="nav flex-column rounded shadow nav-pills bg-dark" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-				<a class="nav-link shadow active bg-dark py-4 text-white" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><h6>Objective</h6></a>
-				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><h6>Skills/Languages</h6></a>
-				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><h6>Projects</h6></a>
+				<a class="nav-link shadow active bg-dark py-4 text-white" id="v-pills-objective-tab" data-toggle="pill" href="#v-pills-objective" role="tab" aria-controls="v-pills-objective" aria-selected="true"><h6>Objective</h6></a>
+				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-skills-tab" data-toggle="pill" href="#v-pills-skills" role="tab" aria-controls="v-pills-skills" aria-selected="false"><h6>Skills/Languages</h6></a>
+				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false"><h6>Projects</h6></a>
 <!--				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><h6>Settings</h6></a>-->
 			</div>
 		</div>
 		<div class="col-8 my-2 px-2 d-block">
 			<div class="tab-content align-items-center" id="v-pills-tabContent">
-				<div class="tab-pane fade show active body-text-size" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+				<div class="tab-pane fade show active body-text-size" id="v-pills-objective" role="tabpanel" aria-labelledby="v-pills-objective-tab">
 					<p>Solution-driven web developer excelling in highly collaborative or solo work environment, finding solutions
 						to challenges and focuses on client satisfaction.</p>
 					<p>Proven experience with HTML, CSS, JavaScript, JQuery, PHP, mySQL, Bootstrap, REST, React, and JSX.</p>
@@ -101,17 +101,40 @@
 					<p>Responding to challenges by designing, developing solutions and building web applications aligned to customer’s services.</p>
 					Translating solutions into code and working across many different APIs, third-party integrations and databases.
 				</div>
-				<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-				<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-				<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+				<div class="tab-pane fade" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab">
+					<div class="container">
+						<div class="row body-text-size">
+							<div class ="col-lg-6">
+								<ul>
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>PHP</li>
+									<li>mySQL</li>
+									<li>jQuery</li>
+								</ul>
+							</div>
+							<div class ="col-lg-6">
+								<ul>
+									<li>JavaScript</li>
+									<li>Bootstrap</li>
+									<li>REST APIs</li>
+									<li>React APIs</li>
+									<li>JSX</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">...</div>
+<!--				<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>-->
 			</div>
 		</div>
 	</div>
 </section>
 
 
-<!-- horizontal nav pills with the content of professional background and links to projects -->
-<section class="d-lg-none my-5">
+<!-- horizontal nav pills with objective, skills/languages, project links to projects - MOBILE -->
+<section class="d-lg-none py-4">
 	<ul class="nav nav-pills my-2" id="pills-tab" role="tablist">
 		<li class="nav-item ml-auto">
 			<a class="nav-link active bg-dark px-2 mx-1 text-white" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><h6>Objective</h6></a>
@@ -133,15 +156,30 @@
 			<p>Responding to challenges by designing, developing solutions and building web applications aligned to customer’s services.</p>
 			Translating solutions into code and working across many different APIs, third-party integrations and databases.
 		</div>
-		<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Lorem ipsum
-			dolor sit amet, consectetur adipiscing elit. In posuere tristique tortor, cursus volutpat lorem semper sed.
-			Cras rutrum hendrerit sem et cursus. Quisque venenatis, sapien a molestie ullamcorper, leo tellus dapibus tortor,
-			ut gravida nunc dolor eget leo. In sodales ipsum et eros blandit dapibus. Vivamus sit amet auctor risus.
-			Pellentesque dictum pharetra est, pulvinar ultricies augue sagittis ut. Vivamus vitae velit ut dui convallis euismod.
-			Ut eu tellus et nunc molestie mattis. Pellentesque quam ante, imperdiet ac aliquet sit amet, vehicula ut turpis.
-			Morbi sit amet nunc at augue imperdiet imperdiet non congue libero. Quisque venenatis sollicitudin velit ac dapibus.
-			Phasellus volutpat, lacus in malesuada scelerisque, ex ligula sagittis dolor, id ullamcorper velit sem vitae metus.
-			Suspendisse at mattis metus. Curabitur a mi vestibulum, sollicitudin odio sit amet, aliquet ligula.</div>
+		<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+			<div class="container-fluid">
+				<div class="row mx-auto d-block">
+					<div class ="col-xs-6">
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>PHP</li>
+							<li>mySQL</li>
+							<li>jQuery</li>
+						</ul>
+					</div>
+					<div class ="col-xs-6 mx-auto d-block">
+						<ul>
+							<li>JavaScript</li>
+							<li>Bootstrap</li>
+							<li>REST APIs</li>
+							<li>React APIs</li>
+							<li>JSX</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Suspendisse
 			dictum tempor vehicula. Vivamus ac magna id sapien vehicula hendrerit. Sed dapibus erat id lacus tempor faucibus
 			non a lorem. Mauris nec facilisis dolor, sed euismod est. Suspendisse placerat diam ut eleifend tincidunt.
@@ -194,7 +232,7 @@
 </section>
 <div class="row container-fluid mx-auto">
 	<div class="col-lg-7 bg-secondary">
-		<header><h3 class="text-white text-center mb-0 mt-1 display-4">My Creative Side: Edit Done With Adobe</h3></header>
+		<header><h3 class="text-white text-center mb-0 mt-1 display-4">My Creative Side</h3></header>
 	</div>
 	<div class="col-lg-5 bg-secondary">
 		<header><h3 class="text-white d-none d-lg-block text-center mb-0 mt-1 display-4">Contact Me</h3></header>
@@ -269,7 +307,7 @@
 					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content bg-dark">
 							<div class="modal-header">
-								<h5 class="modal-title" id="output-area"></h5>
+								<p class="modal-title" id="output-area"> </p>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 									<span aria-hidden="true">&times;</span>
 								</button>
@@ -295,30 +333,30 @@
 </section>
 
 <!-- footer for pwp -->
-<section class="animated bounceInUp container-fluid sticky-bottom fixed-bottom shadow bg-dark mb-0 py-1 align-items-center">
+<section class="animated fadeInUp slow container-fluid sticky-bottom fixed-bottom shadow bg-opacity mb-0 py-1 align-items-center">
 	<blockquote class="text-center mb-0">
 		<footer>
-				<div class="row ml-auto">
-					<div class="d-none d-lg-block my-auto ml-auto">
+				<div class="row mx-auto">
+					<div class="d-none d-lg-block my-auto mx-auto">
 						<h4 class="text-white">Connect With Me</h4>
 					</div>
-					<div class="col-3 col-lg-2 ml-auto">
+					<div class="col-3 col-lg-2 mx-auto">
 						<a href="#contactMe">
 						<img src="imagesIndex/icon-email.png" alt="Nav bar Icon">
 							<h6 class="text-white">Email</h6></a>
 					</div>
-					<div class="col-3 col-lg-2 ml-auto">
+					<div class="col-3 col-lg-2 mx-auto">
 						<a href="https://twitter.com/GinoVillalpando" target="_blank">
 						<img src="imagesIndex/icon-twitter.png" alt="Nav bar Icon">
 							<h6 class="text-white">Follow</h6></a>
 					</div>
-					<div class="col-3 col-lg-2 ml-auto">
+					<div class="col-3 col-lg-2 mx-auto">
 						<a href="https://github.com/GinoVillalpando" target="_blank">
 							<img src="imagesIndex/icon-github.png" alt="Nav bar Icon">
 							<h6 class="text-white">GitHub</h6>
 						</a>
 					</div>
-					<div class="col-3 col-lg-2 ml-auto">
+					<div class="col-3 col-lg-2 mx-auto">
 						<a href="https://www.linkedin.com/in/gino-villalpando/" target="_blank">
 						<img src="imagesIndex/icon-linkedin.png" alt="Nav bar Icon">
 						<h6 class="text-white">Linkedin</h6></a>

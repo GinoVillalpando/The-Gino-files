@@ -7,7 +7,7 @@
 
 .py-5 {
 	padding-bottom: 12.5rem!important;
-	padding-top: 12rem!important;
+	padding-top: 20rem!important;
 }
 
 /**
@@ -22,6 +22,7 @@ html {
 }
 
 body {
+	position: relative;
 	color: white;
 	background-color: rgb(24, 26, 27);
 	height: 100%;
@@ -46,7 +47,7 @@ form {
 }
 
 .mb-5 {
-	margin-bottom: 10rem!important;
+	margin-bottom: 5rem!important;
 }
 
 .pb-5 {
@@ -66,10 +67,14 @@ form {
 }
 
 .body-text-size {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .alert-success {
 	color: black!important;
 	text-shadow: 2px 2px 4px white!important;
+}
+
+.bg-opacity {
+	background-color: rgba(75, 75, 75, 0.9);
 }
