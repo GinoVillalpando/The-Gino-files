@@ -1,13 +1,13 @@
 .intro-background {
 	background-image: url("https://images.unsplash.com/photo-1563628631561-cc80533f6826?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1345&q=80");
 	background-size: cover;
-	background-position-y: 60%;
+	background-position-y: 70%;
 	background-position-x: center;
 }
 
 .py-5 {
-	padding-bottom: 12.5rem!important;
-	padding-top: 20rem!important;
+	padding-bottom: 20.5rem!important;
+	padding-top: 5rem!important;
 }
 
 /**

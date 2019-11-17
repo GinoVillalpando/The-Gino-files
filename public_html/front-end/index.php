@@ -40,8 +40,8 @@
 <div class="container-fluid p-0 text-white">
 	<nav class="navbar navbar-expand-lg navbar-dark bg-opacity">
 		<a class="navbar-brand" href="index.php">
-			<img src="imagesIndex/navbarIcon.png" width="64" height="64" class="d-inline-block align-top mr-2" alt="Nav bar Icon" />
-			<h5 class="animated bounceInDown d-inline-block text-center display-4">Gino</h5> <h5 class="animated bounceInDown active d-lg-none d-inline-block text-center display-4">V.</h5> <h5 class="animated bounceInDown d-none d-lg-inline-block text-center display-4">Villalpando</h5></a>
+			<img src="imagesIndex/navbarIcon.png" width="64" height="64" class="animated zoomIn d-inline-block align-top mr-2" alt="Nav bar Icon" />
+			<h5 class="animated bounceInDown active d-inline-block text-center display-4">Gino</h5> <h5 class="animated bounceInDown active d-lg-none d-inline-block text-center display-4">V.</h5> <h5 class="animated bounceInDown active d-none d-lg-inline-block text-center display-4">Villalpando</h5></a>
 		<button class="animated active bounceInRight navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -80,14 +80,14 @@
 
 <a id="professionalBackground"></a>
 <!-- vertical pill navs with objective, skills/languages, and project links - FULLSCREEN -->
-<section class="container-fluid d-none d-lg-block my-5">
+<section class="container-fluid d-none d-lg-block pb-5 bg-light text-dark">
 	<div class="row mx-auto">
 		<div class="col-4 my-3">
 			<div class="nav flex-column rounded shadow nav-pills bg-dark" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 				<a class="nav-link shadow active bg-dark py-4 text-white" id="v-pills-objective-tab" data-toggle="pill" href="#v-pills-objective" role="tab" aria-controls="v-pills-objective" aria-selected="true"><h6>Objective</h6></a>
 				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-skills-tab" data-toggle="pill" href="#v-pills-skills" role="tab" aria-controls="v-pills-skills" aria-selected="false"><h6>Skills/Languages</h6></a>
 				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false"><h6>Projects</h6></a>
-<!--				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><h6>Settings</h6></a>-->
+				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><h6>Deep Dive Coding Graduate</h6></a>
 			</div>
 		</div>
 		<div class="col-8 my-2 px-2 d-block">
@@ -125,8 +125,28 @@
 						</div>
 					</div>
 				</div>
-				<div class="tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">...</div>
-<!--				<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>-->
+				<div class="tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">
+					<ul class="body-text-size">
+						<li>Community CookBook (using PHP, mySQL, JSX, HTML, JavaScript, CSS, Object Oriented Programming)<br/>
+							<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/community-cookbook/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
+							<a href="https://github.com/TheDeepDiveDawgs/community-cookbook" class="text-dark" target="_blank"><strong>GitHub Repository </strong></a>
+						</li>
+						<li>Personal Webpage Project (using PHP, HTML, CSS, Bootstrap, jQuery)<br/>
+							<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/The-Gino-Files/public_html/front-end/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
+							<a href="https://github.com/GinoVillalpando/The-Gino-files" class="text-dark" target="_blank"><strong>GitHub Repository </strong></a>
+						</li>
+						<li>Deep Dive Coding Assessment (using PHP, mySQL, Object Oriented Programming)<br/>
+							<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/assessment-1-GinoVillalpando/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
+							<a href="https://github.com/uss-hopper/assessment-1-GinoVillalpando" class="text-dark" target="_blank"><strong>GitHub Repository </strong></a>
+						</li>
+					</ul>
+				</div>
+				<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+					<strong>CNM Ingenuity (October 2019 – December 2019)</strong>
+					<p class="body-text-size">This cohort consisted of 2 months to create a web application in collaboration with a group of other
+						cohort classmates using languages such as PHP, mySQL, JSX, HTML, JavaScript, CSS, and skills like Object Oriented Programming. </p>
+					<p class="body-text-size">We also had to create our own personal website during this 2-month period with on-going assignments and assessments to prove our skills.</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -134,7 +154,7 @@
 
 
 <!-- horizontal nav pills with objective, skills/languages, project links to projects - MOBILE -->
-<section class="d-lg-none py-4">
+<section class="d-lg-none py-4 bg-light text-dark">
 	<ul class="nav nav-pills my-2" id="pills-tab" role="tablist">
 		<li class="nav-item ml-auto">
 			<a class="nav-link active bg-dark px-2 mx-1 text-white" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><h6>Objective</h6></a>
@@ -180,11 +200,21 @@
 				</div>
 			</div>
 		</div>
-		<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Suspendisse
-			dictum tempor vehicula. Vivamus ac magna id sapien vehicula hendrerit. Sed dapibus erat id lacus tempor faucibus
-			non a lorem. Mauris nec facilisis dolor, sed euismod est. Suspendisse placerat diam ut eleifend tincidunt.
-			Suspendisse vel felis ultrices, sollicitudin est interdum, auctor tortor. Quisque id tincidunt sapien, eget
-			mattis eros. Quisque dui felis, porttitor vel condimentum ut, tincidunt sed enim.</div>
+		<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><ul class="body-text-size">
+				<li>Community CookBook (using PHP, mySQL, JSX, HTML, JavaScript, CSS, Object Oriented Programming)<br/>
+					<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/community-cookbook/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
+					<a href="https://github.com/TheDeepDiveDawgs/community-cookbook" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
+				</li>
+				<li>Personal Webpage Project (using PHP, HTML, CSS, Bootstrap, jQuery)<br/>
+					<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/The-Gino-Files/public_html/front-end/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
+					<a href="https://github.com/GinoVillalpando/The-Gino-files" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
+				</li>
+				<li>Deep Dive Coding Assessment (using PHP, mySQL, Object Oriented Programming)<br/>
+					<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/assessment-1-GinoVillalpando/" class="text-dark d-xs-inline-block mx-auto" target="_blank"><strong>Deployment, </strong></a>
+					<a href="https://github.com/uss-hopper/assessment-1-GinoVillalpando" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
+				</li>
+			</ul>
+		</div>
 	</div>
 </section>
 
@@ -195,18 +225,17 @@
 			<div class="card-header" id="headingOne">
 				<h2 class="mb-0">
 					<button class="btn text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						Collapsible Group Item #1
+						Deep Dive Coding Graduate
 					</button>
 				</h2>
 			</div>
 		</div>
 		<div id="collapseOne" class="collapse active" aria-labelledby="headingOne" data-parent="#accordionExample">
 			<div class="card-body">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-				fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-				mollit anim id est laborum.
+				<strong>CNM Ingenuity (October 2019 – December 2019)</strong>
+				<p class="body-text-size">This cohort consisted of 2 months to create a web application in collaboration with a group of other
+					cohort classmates using languages such as PHP, mySQL, JSX, HTML, JavaScript, CSS, and skills like Object Oriented Programming. </p>
+				<p class="body-text-size">We also had to create our own personal website during this 2-month period with on-going assignments and assessments to prove our skills.</p>
 			</div>
 		</div>
 	</div>
@@ -240,17 +269,17 @@
 </div>
 
 <!-- embedded youtube video showcasing my creative skills-->
-<section class=" container-fluid d-block mx-auto mb-auto px-0">
-<div class="container-fluid bg-dark text-white">
-	<div class="row">
-		<div class="col-lg-7 mx-auto d-inline-block">
-			<div class="embed-responsive embed-responsive-16by9 my-3">
-				<iframe src="https://www.youtube.com/embed/c8rv23u_8Es?rel=0&amp;autoplay=1&mute=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section class=" container-fluid d-block mx-auto mb-auto px-2 bg-secondary">
+	<div class="container-fluid text-white">
+		<div class="row justify-content-around">
+			<div class="col-lg-7 mx-auto d-inline-block">
+				<div class="embed-responsive embed-responsive-16by9 my-3">
+					<iframe src="https://www.youtube.com/embed/c8rv23u_8Es?rel=0&amp;autoplay=1&mute=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
 			</div>
-		</div>
 
 		<!-- contact form for The Gino Files-->
-		<div class="col-lg-5 bg-dark p-3 mx-auto align-text-bottom">
+		<div class="col-lg-5 p-3 mx-auto mb-5 text-right">
 			<header><h3 class="text-white d-lg-none text-center mb-0 mt-1 display-4">Contact Me</h3></header>
 			<form id="gino-contact-form" action="../php/index.php" method="post">
 				<div class="form-group">
@@ -295,14 +324,16 @@
 					</div>
 				</div>
 
-				<!-- reCAPTCHA -->
-				<div class="g-recaptcha my-2 " data-sitekey="6LexKsIUAAAAABMZKziTTiDVrw12OXFG-z2mMguO"></div>
-				<button class="btn btn-secondary mb-5 text-white" type="submit" data-toggle="modal" data-target="#popUpModal"><i class="fa fa-paper-plane"></i> Send</button>
-				<button class="btn btn-light mb-5 " type="reset"><i class="fa fa-ban"></i> Reset</button>
+				<!-- reCAPTCHA with send and reset buttons-->
+				<div class="row justify-content-end">
+					<div class="g-recaptcha mx-3" data-sitekey="6LexKsIUAAAAABMZKziTTiDVrw12OXFG-z2mMguO"></div>
+				</div>
+				<div class="row justify-content-end">
+					<button class="btn btn-secondary m-3 px-4  text-white" type="submit" data-toggle="modal" data-target="#popUpModal"><i class="fa fa-paper-plane"></i> Send</button>
+					<button class="btn btn-light m-3 px-4" type="reset"><i class="fa fa-ban"></i> Reset</button>
+				</div>
 
-				<!--empty area for form error/success output-->
-
-				<!-- Modal -->
+				<!-- Modal displaying whether or not the email was sent -->
 				<div class="modal fade" id="popUpModal" tabindex="-1" role="dialog" aria-labelledby="output-area" aria-hidden="true">
 					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content bg-dark">
@@ -341,7 +372,7 @@
 						<h4 class="text-white">Connect With Me</h4>
 					</div>
 					<div class="col-3 col-lg-2 mx-auto">
-						<a href="#contactMe">
+						<a href="mailto:ginovillalpando@outlook.com" target="_blank">
 						<img src="imagesIndex/icon-email.png" alt="Nav bar Icon">
 							<h6 class="text-white">Email</h6></a>
 					</div>
