@@ -38,7 +38,7 @@
 
 <!-- nav bar with icon image, a header with name and an icon for the menu that shows on small screens -->
 <div class="container-fluid p-0 text-white">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-opacity">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark-gradient">
 		<a class="navbar-brand" href="index.php">
 			<img src="imagesIndex/navbarIcon.png" width="64" height="64" class="animated zoomIn d-inline-block align-top mr-2" alt="Nav bar Icon" />
 			<h5 class="animated bounceInDown active d-inline-block text-center display-4">Gino</h5> <h5 class="animated bounceInDown active d-lg-none d-inline-block text-center display-4">V.</h5> <h5 class="animated bounceInDown active d-none d-lg-inline-block text-center display-4">Villalpando</h5></a>
@@ -91,7 +91,7 @@
 			</div>
 		</div>
 		<div class="col-8 my-2 px-2 d-block">
-			<div class="tab-content align-items-center" id="v-pills-tabContent">
+			<div class="tab-content pt-3" id="v-pills-tabContent">
 				<div class="tab-pane fade show active body-text-size" id="v-pills-objective" role="tabpanel" aria-labelledby="v-pills-objective-tab">
 					<p>Solution-driven web developer excelling in highly collaborative or solo work environment, finding solutions
 						to challenges and focuses on client satisfaction.</p>
@@ -157,13 +157,13 @@
 <section class="d-lg-none py-4 bg-light text-dark">
 	<ul class="nav nav-pills my-2" id="pills-tab" role="tablist">
 		<li class="nav-item ml-auto">
-			<a class="nav-link active bg-dark px-2 mx-1 text-white" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><h6>Objective</h6></a>
+			<a class="nav-link active bg-dark-gradient px-2 mx-1 text-white" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><h6>Objective</h6></a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link px-2 bg-dark text-white" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><h6>Skills/Languages</h6></a>
+			<a class="nav-link px-2 bg-dark-gradient text-white" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><h6>Skills/Languages</h6></a>
 		</li>
 		<li class="nav-item mr-auto">
-			<a class="nav-link px-2 mx-1 bg-dark text-white" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><h6>Projects</h6></a>
+			<a class="nav-link px-2 mx-1 bg-dark-gradient text-white" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><h6>Projects</h6></a>
 		</li>
 	</ul>
 	<div class="tab-content my-4 mx-4" id="pills-tabContent">
@@ -259,17 +259,17 @@
 		</div>
 	</div>
 </section>
-<div class="row container-fluid mx-auto">
-	<div class="col-lg-7 bg-secondary">
+<div class="row container-fluid mx-auto bg-dark">
+	<div class="col-lg-7 bg-dark">
 		<header><h3 class="text-white text-center mb-0 mt-1 display-4">My Creative Side</h3></header>
 	</div>
-	<div class="col-lg-5 bg-secondary">
+	<div class="col-lg-5 bg-dark">
 		<header><h3 class="text-white d-none d-lg-block text-center mb-0 mt-1 display-4">Contact Me</h3></header>
 	</div>
 </div>
 
 <!-- embedded youtube video showcasing my creative skills-->
-<section class=" container-fluid d-block mx-auto mb-auto px-2 bg-secondary">
+<section class=" container-fluid d-block mx-auto mb-auto px-2 bg-dark">
 	<div class="container-fluid text-white">
 		<div class="row justify-content-around">
 			<div class="col-lg-7 mx-auto d-inline-block">
@@ -329,14 +329,14 @@
 					<div class="g-recaptcha mx-3" data-sitekey="6LexKsIUAAAAABMZKziTTiDVrw12OXFG-z2mMguO"></div>
 				</div>
 				<div class="row justify-content-end">
-					<button class="btn btn-secondary m-3 px-4  text-white" type="submit" data-toggle="modal" data-target="#popUpModal"><i class="fa fa-paper-plane"></i> Send</button>
-					<button class="btn btn-light m-3 px-4" type="reset"><i class="fa fa-ban"></i> Reset</button>
+					<button class="btn btn-light m-3 px-4 text-black" type="submit" data-toggle="modal" data-target="#popUpModal"><i class="fa fa-paper-plane"></i> Send</button>
+					<button class="btn btn-secondary m-3 px-4" type="reset"><i class="fa fa-ban"></i> Reset</button>
 				</div>
 
 				<!-- Modal displaying whether or not the email was sent -->
 				<div class="modal fade" id="popUpModal" tabindex="-1" role="dialog" aria-labelledby="output-area" aria-hidden="true">
 					<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="modal-content bg-dark">
+						<div class="modal-content bg-dark-gradient">
 							<div class="modal-header">
 								<p class="modal-title" id="output-area"> </p>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -364,7 +364,7 @@
 </section>
 
 <!-- footer for pwp -->
-<section class="animated fadeInUp slow container-fluid sticky-bottom fixed-bottom shadow bg-opacity mb-0 py-1 align-items-center">
+<section class="animated fadeInUp slow container-fluid sticky-bottom fixed-bottom shadow bg-footer mb-0 py-1 align-items-center">
 	<blockquote class="text-center mb-0">
 		<footer>
 				<div class="row mx-auto">

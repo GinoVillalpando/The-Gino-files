@@ -75,6 +75,18 @@ form {
 	text-shadow: 2px 2px 4px white!important;
 }
 
-.bg-opacity {
-	background-color: rgba(75, 75, 75, 0.9);
+.bg-dark-gradient {
+	background: linear-gradient(#5b5b5b, #333333);
+}
+
+.bg-dark-grey {
+	background-color: #5b5b5b;
+}
+
+.bg-footer {
+	background: linear-gradient(#262626, #404040);
+}
+
+.text-black {
+	color: black;
 }
