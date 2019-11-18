@@ -58,8 +58,11 @@
 				<li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
 					<a class="nav-link mx-4" href="#aboutMe">About Me<hr/> <span class="sr-only">(current)</span></a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link mx-4" href="mailto:GinoVillalpando@outlook.com" target="_blank">Contact<hr/></a>
+				<li class="nav-item d-none d-lg-block" data-toggle="collapse" data-target=".navbar-collapse.show">
+					<a class="nav-link mx-4" href="#contactMe">Contact<hr/></a>
+				</li>
+				<li class="nav-item d-lg-none" data-toggle="collapse" data-target=".navbar-collapse.show">
+					<a class="nav-link mx-4" href="#contactMe2">Contact<hr/></a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link mx-4" href="downloadable-resume/Gino-Villalpando-Resume.pdf" download="Gino-resume">Resume<hr/></a>
@@ -142,7 +145,7 @@
 							<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/community-cookbook/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
 							<a href="https://github.com/TheDeepDiveDawgs/community-cookbook" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
 						</li>
-						<li>Personal Webpage Project <br/>(PHP, HTML, CSS, Bootstrap, jQuery)<br/>
+						<li class="mb-3">Personal Webpage Project <br/>(PHP, HTML, CSS, Bootstrap, jQuery)<br/>
 							<em class="my-2">A portfolio webpage that showcases my developer skills and information on my education. </em><br/>
 							<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/The-Gino-Files/public_html/front-end/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
 							<a href="https://github.com/GinoVillalpando/The-Gino-files" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
@@ -150,7 +153,7 @@
 						<li class="mb-3">Deep Dive Coding Assessment <br/>
 							<em>95/100</em><br/>
 							(using PHP, mySQL, Object Oriented Programming)<br/>
-							<em>One hour assessment where I had to build a database and table class that will insert data into the database and instantiating the object.</em>
+							<em>One hour assessment where I had to build a database and table class that will insert data into the database and instantiating the object.</em><br/>
 							<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/assessment-1-GinoVillalpando/" class="text-dark d-xs-inline-block mx-auto" target="_blank"><strong>Deployment, </strong></a>
 							<a href="https://github.com/uss-hopper/assessment-1-GinoVillalpando" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
 						</li>
@@ -229,7 +232,7 @@
 					<a href="https://github.com/TheDeepDiveDawgs/community-cookbook" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
 				</li>
 				<li>Personal Webpage Project <br/>(PHP, HTML, CSS, Bootstrap, jQuery)<br/>
-					<em class="my-2">A portfolio webpage that showcases my developer skills and information on my education. </em><br/>
+					<em class="mb-3">A portfolio webpage that showcases my developer skills and information on my education. </em><br/>
 					<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/The-Gino-Files/public_html/front-end/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
 					<a href="https://github.com/GinoVillalpando/The-Gino-files" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
 				</li>
@@ -237,7 +240,7 @@
 					<em>95/100</em><br/>
 					(using PHP, mySQL, Object Oriented Programming)<br/>
 					<em>95/100</em><br/>
-					<em>A one hour assessment where my cohort had to build a database and table class that will insert data into the database and instantiating the object.</em>
+					<em>A one hour assessment where I had to build a database and table class that will insert data into the database and instantiating the object.</em><br/>
 					<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/assessment-1-GinoVillalpando/" class="text-dark d-xs-inline-block mx-auto" target="_blank"><strong>Deployment, </strong></a>
 					<a href="https://github.com/uss-hopper/assessment-1-GinoVillalpando" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
 				</li>
@@ -247,7 +250,6 @@
 
 
 <!-- drop-downs with further information on some of my core skills-->
-
 	<div class="accordion d-lg-none" id="accordionExample">
 		<div class="card bg-dark text-white">
 			<button class="btn text-white p-4 body-text-size" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -267,7 +269,6 @@
 				<p class="body-text-size">On this personal webpage we used bootstrap and jQuery, then used languages such as HTML, CSS and JavaScript</p>
 			</div>
 			</div>
-		</div>
 	<div class="card bg-dark text-white d-lg-none">
 		<button class="btn text-white collapsed p-4 body-text-size" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 				Skills
@@ -289,14 +290,14 @@
 </section>
 
 <!--headers for video and contact form-->
-<div class="row container-fluid mx-auto bg-dark padding-video-contact">
+<div class="row container-fluid mx-auto bg-dark padding-video-contact" id="contactMe">
 	<div class="col-lg-7 bg-dark">
 		<header><h3 class="text-white text-center mb-0 mt-1 display-4">My Creative Side</h3></header>
 		<p class="text-center mt-4">Editing videos for underground artist using clips they shoot their self or with anime clips.</p>
 	</div>
 	<div class="col-lg-5 bg-dark">
 		<header><h3 class="text-white d-none d-lg-block text-center mb-0 mt-1 display-4">Contact Me</h3></header>
-		<p class="text-center mt-4">Use this contact form to email me or use the email feature at the bottom of the page.</p>
+		<p class="text-center mt-4 d-none d-lg-block">Use this contact form to email me or use the email feature at the bottom of the page.</p>
 	</div>
 </div>
 
@@ -312,12 +313,11 @@
 			</div>
 
 		<!-- contact form for The Gino Files-->
-
-		<div class="col-lg-5 p-3 mx-auto mb-5 text-right">
+		<div class="col-lg-5 mx-auto mb-5 text-right padding-mobile-contact" id="contactMe2">
 			<header><h3 class="text-white d-lg-none text-center mb-0 mt-1 display-4">Contact Me</h3></header>
+			<p class="text-center mt-4 d-lg-none">Use this contact form to email me or use the email feature at the bottom of the page.</p>
 			<form id="gino-contact-form" action="../php/index.php" method="post">
 				<div class="form-group">
-					<a id="contactMe"></a>
 					<label for="name">Name <span class="text-danger">*</span></label>
 					<div class="input-group">
 						<div class="input-group-prepend">

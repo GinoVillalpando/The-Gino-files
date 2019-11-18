@@ -122,10 +122,15 @@ form {
 
 .padding-video-contact {
 	padding-bottom: .5rem;
-	padding-top: 4.5rem;
+	padding-top: 7rem;
 }
 
 .padding-horizontal {
 	padding-top: 6rem!important;
 	padding-bottom: 0.5rem!important;
+}
+
+.padding-mobile-contact {
+	padding-bottom: .5rem;
+	padding-top: 4rem;
 }
