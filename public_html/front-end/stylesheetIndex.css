@@ -7,7 +7,7 @@
 
 .py-5 {
 	padding-bottom: 20.5rem!important;
-	padding-top: 5rem!important;
+	padding-top: 10rem!important;
 }
 
 /**
@@ -27,7 +27,6 @@ body {
 	background-color: rgb(24, 26, 27);
 	height: 100%;
 	overflow-x: hidden;
-	padding-top: 70px;
 }
 
 @media screen and (max-width: 768px){
@@ -84,7 +83,7 @@ form {
 }
 
 .bg-header {
-	background-color: rgba(20, 20, 20, 0.95);
+	background-color: rgba(20, 20, 20, 0.98);
 }
 
 .bg-dark-gradient {
@@ -96,7 +95,7 @@ form {
 }
 
 .bg-footer {
-	background: rgba(20, 20, 20, 0.95);
+	background: rgba(20, 20, 20, 0.98);
 }
 
 .text-black {

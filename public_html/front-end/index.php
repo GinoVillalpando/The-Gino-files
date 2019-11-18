@@ -35,7 +35,7 @@
 </head>
 
 <!-- body of The-Gino-Files contents -->
-<body class="animated fadeIn slow">
+<body class="animated fadeIn">
 
 <!-- nav bar with icon image, a header with name and an icon for the menu that shows on small screens -->
 <div class="container-fluid p-0 text-white">
