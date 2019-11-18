@@ -8,14 +8,10 @@
 	<title>The Gino Files</title>
 
 	<!-- bootstrap and css stylesheets-->
-<<<<<<< HEAD
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
-=======
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
 			integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="stylesheetIndex.css">
->>>>>>> 0bbaa6bd6560eae53b6a755b97b205f9c4425728
 
 	<!--<script src="https://kit.fontawesome.com/" -->
 
@@ -30,12 +26,9 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-<<<<<<< HEAD
 
 	<!-- Your JavaScript Form Validator -->
 	<script src="../javascript/form-validate.js"></script>
-=======
->>>>>>> 0bbaa6bd6560eae53b6a755b97b205f9c4425728
 
 	<!-- Google reCAPTCHA -->
 	<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -51,19 +44,11 @@
 
 <!-- nav bar with icon image, a header with name and an icon for the menu that shows on small screens -->
 <div class="container-fluid p-0 text-white">
-<<<<<<< HEAD
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="index.php">
-			<img src="imagesIndex/navbarIcon.png" width="64" height="64" class="d-inline-block align-top mr-3" alt="Nav bar Icon" />
-			<h5 class="d-inline-block text-center mr-3 display-4">Gino</h5> <h5 class="d-lg-none d-inline-block text-center display-4">V.</h5> <h5 class="d-none d-lg-inline-block text-center display-4">Villalpando</h5></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-=======
 	<nav class="navbar navbar-expand-lg navbar-dark bg-header p-1 fixed-top">
 		<a class="navbar-brand p-0 ml-4" href="index.php">
 			<img src="imagesIndex/navbarIcon.png" width="40" height="40" class="animated zoomIn d-inline-block align-top mt-1 mr-2" alt="Nav bar Icon" />
 			<h5 class="animated bounceInDown active d-inline-block text-center display-4 header-text-size mb-0">Gino</h5> <h5 class="animated bounceInDown active d-lg-none d-inline-block text-center display-4 header-text-size mb-0">V.</h5> <h5 class="animated bounceInDown active d-none d-lg-inline-block text-center display-4 header-text-size mb-0">Villalpando</h5></a>
 		<button class="animated active bounceInRight navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
->>>>>>> 0bbaa6bd6560eae53b6a755b97b205f9c4425728
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
