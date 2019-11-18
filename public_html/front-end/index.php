@@ -165,8 +165,8 @@
 
 
 <!-- horizontal nav pills with objective, skills/languages, project links to projects - MOBILE -->
-<section class="d-lg-none py-3 bg-light text-dark">
-	<ul class="nav nav-pills my-2" id="pills-tab" role="tablist">
+<section class="d-lg-none bg-light text-dark">
+	<ul class="nav nav-pills padding-horizontal" id="pills-tab" role="tablist">
 		<li class="nav-item ml-auto">
 			<a class="nav-link active bg-dark-gradient px-2 mx-1 text-white" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><h6>Objective</h6></a>
 		</li>
@@ -227,10 +227,10 @@
 			</ul>
 		</div>
 	</div>
-</section>
+
 
 <!-- drop-downs with further information on some of my core skills-->
-<section>
+
 	<div class="accordion d-lg-none" id="accordionExample">
 		<div class="card bg-dark text-white">
 			<button class="btn text-white p-4 body-text-size" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -239,7 +239,7 @@
 		</div>
 	</div>
 		<div id="collapseOne" class="collapse active" aria-labelledby="headingOne" data-parent="#accordionExample">
-			<div class="card-body">
+			<div class="card-body bg-secondary text-white" id="headingOne">
 				<strong>CNM Ingenuity (October 2019 – December 2019)</strong>
 				<p class="body-text-size">This cohort consisted of 2 months to create a web application in collaboration with a group of other
 					cohort classmates using languages such as PHP, mySQL, JSX, HTML, JavaScript, CSS, and skills like Object Oriented Programming. </p>
@@ -251,7 +251,7 @@
 				Collapsible Group Item #2
 		</button>
 		<div id="collapseTwo" class="collapse m-0 bg-secondary" aria-labelledby="headingTwo" data-parent="#accordionExample">
-			<div class="card-body">
+			<div class="card-body text-white" id="headingTwo">
 				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
 				moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
 				Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
