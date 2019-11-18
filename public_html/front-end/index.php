@@ -8,7 +8,8 @@
 	<title>The Gino Files</title>
 
 	<!-- bootstrap and css stylesheets-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+			integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="stylesheetIndex.css">
 
@@ -212,15 +213,15 @@
 			</div>
 		</div>
 		<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><ul class="body-text-size">
-				<li>Community CookBook (using PHP, mySQL, JSX, HTML, JavaScript, CSS, Object Oriented Programming)<br/>
+				<li class="mb-3">Community CookBook (using PHP, mySQL, JSX, HTML, JavaScript, CSS, Object Oriented Programming)<br/>
 					<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/community-cookbook/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
 					<a href="https://github.com/TheDeepDiveDawgs/community-cookbook" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
 				</li>
-				<li>Personal Webpage Project (using PHP, HTML, CSS, Bootstrap, jQuery)<br/>
+				<li class="mb-3">Personal Webpage Project (using PHP, HTML, CSS, Bootstrap, jQuery)<br/>
 					<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/The-Gino-Files/public_html/front-end/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
 					<a href="https://github.com/GinoVillalpando/The-Gino-files" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
 				</li>
-				<li>Deep Dive Coding Assessment (using PHP, mySQL, Object Oriented Programming)<br/>
+				<li class="mb-3">Deep Dive Coding Assessment (using PHP, mySQL, Object Oriented Programming)<br/>
 					<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/assessment-1-GinoVillalpando/" class="text-dark d-xs-inline-block mx-auto" target="_blank"><strong>Deployment, </strong></a>
 					<a href="https://github.com/uss-hopper/assessment-1-GinoVillalpando" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
 				</li>
