@@ -38,28 +38,36 @@
 
 <!-- nav bar with icon image, a header with name and an icon for the menu that shows on small screens -->
 <div class="container-fluid p-0 text-white">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark-gradient">
-		<a class="navbar-brand" href="index.php">
-			<img src="imagesIndex/navbarIcon.png" width="64" height="64" class="animated zoomIn d-inline-block align-top mr-2" alt="Nav bar Icon" />
-			<h5 class="animated bounceInDown active d-inline-block text-center display-4">Gino</h5> <h5 class="animated bounceInDown active d-lg-none d-inline-block text-center display-4">V.</h5> <h5 class="animated bounceInDown active d-none d-lg-inline-block text-center display-4">Villalpando</h5></a>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark-gradient p-1 fixed-top">
+		<a class="navbar-brand p-0 ml-4" href="index.php">
+			<img src="imagesIndex/navbarIcon.png" width="40" height="40" class="animated zoomIn d-inline-block align-top mt-1 mr-2" alt="Nav bar Icon" />
+			<h5 class="animated bounceInDown active d-inline-block text-center display-4 header-text-size mb-0">Gino</h5> <h5 class="animated bounceInDown active d-lg-none d-inline-block text-center display-4 header-text-size mb-0">V.</h5> <h5 class="animated bounceInDown active d-none d-lg-inline-block text-center display-4 header-text-size mb-0">Villalpando</h5></a>
 		<button class="animated active bounceInRight navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
 		<!-- nav items aligned to the right and is shown in the menu after pressing -->
 		<div class="collapse navbar-collapse text-right" id="navbarNav">
-			<ul class="animated bounceInDown navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link mx-4" href="#professionalBackground">Background<hr/> <span class="sr-only">(current)</span></a>
+			<ul class="animated bounceInDown navbar-nav ml-auto mt-3">
+				<li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+					<a class="nav-link mx-4" href="#aboutMe">About Me<hr/> <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link mx-4" href="#">Features<hr/></a>
+					<a class="nav-link mx-4" href="mailto:GinoVillalpando@outlook.com" target="_blank">Contact<hr/></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link mx-4" href="#">Pricing<hr/></a>
+					<a class="nav-link mx-4" href="downloadable-resume/Gino-Villalpando-Resume.pdf" download="Gino-resume">Resume<hr/></a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link mx-4" href="#" tabindex="-1" aria-disabled="true">Disabled<hr/></a>
+				<li class="nav-item dropdown pb-4">
+					<a class="nav-link dropdown-toggle mx-4" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Other Projects
+					</a>
+					<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item text-white" href="#">Action</a>
+						<a class="dropdown-item text-white" href="#">Another action</a>
+<!--						<div class="dropdown-divider"></div>-->
+						<a class="dropdown-item text-white" href="#">Something else here</a>
+					</div>
 				</li>
 			</ul>
 		</div>
@@ -70,20 +78,22 @@
 <a id="landingPage"></a>
 <section>
 	<div class="jumbotron-fluid py-5 px-5 intro-background bg-dark mx-auto d-block text-white">
-		<h1 class="animated bounceInLeft display-4">Visionary Developer Of The Future.</h1>
-		<p class="lead animated bounceInLeft ">Compassionate learner of programming with a genuine interest in technological advances.</p>
-		<hr class="my-4" />
-		<a class="animated bounceInLeft btn btn-dark text-white btn-lg" href="#professionalBackground" role="button">Learn more</a>
+		<div class="bg-drop-text p-4">
+			<h1 class="animated bounceInLeft display-4">Visionary Developer For The Future.</h1>
+			<p class="lead animated bounceInLeft ">Compassionate learner of programming with a genuine interest in technological advances.</p>
+			<hr class="my-4" />
+			<a class="animated bounceInLeft btn btn-dark text-white btn-lg" href="#aboutMe" role="button">Learn more</a>
+		</div>
 	</div>
 </section>
 
 
-<a id="professionalBackground"></a>
 <!-- vertical pill navs with objective, skills/languages, and project links - FULLSCREEN -->
-<section class="container-fluid d-none d-lg-block pb-5 bg-light text-dark">
+<a id="aboutMe"></a>
+<section class="container-fluid py-3 d-none d-lg-block bg-light text-dark">
 	<div class="row mx-auto">
 		<div class="col-4 my-3">
-			<div class="nav flex-column rounded shadow nav-pills bg-dark" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+			<div class="nav flex-column rounded shadow nav-pills bg-dark text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 				<a class="nav-link shadow active bg-dark py-4 text-white" id="v-pills-objective-tab" data-toggle="pill" href="#v-pills-objective" role="tab" aria-controls="v-pills-objective" aria-selected="true"><h6>Objective</h6></a>
 				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-skills-tab" data-toggle="pill" href="#v-pills-skills" role="tab" aria-controls="v-pills-skills" aria-selected="false"><h6>Skills/Languages</h6></a>
 				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false"><h6>Projects</h6></a>
@@ -92,16 +102,17 @@
 		</div>
 		<div class="col-8 my-2 px-2 d-block">
 			<div class="tab-content pt-3" id="v-pills-tabContent">
-				<div class="tab-pane fade show active body-text-size" id="v-pills-objective" role="tabpanel" aria-labelledby="v-pills-objective-tab">
+				<div class="tab-pane fade show active body-text-size mx-auto" id="v-pills-objective" role="tabpanel" aria-labelledby="v-pills-objective-tab">
 					<p>Solution-driven web developer excelling in highly collaborative or solo work environment, finding solutions
 						to challenges and focuses on client satisfaction.</p>
 					<p>Proven experience with HTML, CSS, JavaScript, JQuery, PHP, mySQL, Bootstrap, REST, React, and JSX.</p>
 					<p>Experienced in building product for desktop, and mobile app users, meeting the highest quality standards
 						for web design, user experience, best practices, usability and meeting deadlines.</p>
 					<p>Responding to challenges by designing, developing solutions and building web applications aligned to customer’s services.</p>
-					Translating solutions into code and working across many different APIs, third-party integrations and databases.
+					<p>Translating solutions into code and working across many different APIs, third-party integrations and databases.</p>
+						Working with developers that is compassionate about technology and want to integrate new ways of developing software.
 				</div>
-				<div class="tab-pane fade" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab">
+				<div class="tab-pane fade mx-auto" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab">
 					<div class="container">
 						<div class="row body-text-size">
 							<div class ="col-lg-6">
@@ -125,24 +136,24 @@
 						</div>
 					</div>
 				</div>
-				<div class="tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">
+				<div class="tab-pane fade mx-auto" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">
 					<ul class="body-text-size">
-						<li>Community CookBook (using PHP, mySQL, JSX, HTML, JavaScript, CSS, Object Oriented Programming)<br/>
+						<li class="mb-3">Community CookBook (using PHP, mySQL, JSX, HTML, JavaScript, CSS, Object Oriented Programming)<br/>
 							<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/community-cookbook/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
 							<a href="https://github.com/TheDeepDiveDawgs/community-cookbook" class="text-dark" target="_blank"><strong>GitHub Repository </strong></a>
 						</li>
-						<li>Personal Webpage Project (using PHP, HTML, CSS, Bootstrap, jQuery)<br/>
+						<li class="mb-3">Personal Webpage Project (using PHP, HTML, CSS, Bootstrap, jQuery)<br/>
 							<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/The-Gino-Files/public_html/front-end/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
 							<a href="https://github.com/GinoVillalpando/The-Gino-files" class="text-dark" target="_blank"><strong>GitHub Repository </strong></a>
 						</li>
-						<li>Deep Dive Coding Assessment (using PHP, mySQL, Object Oriented Programming)<br/>
+						<li class="mb-3">Deep Dive Coding Assessment (using PHP, mySQL, Object Oriented Programming)<br/>
 							<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/assessment-1-GinoVillalpando/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
 							<a href="https://github.com/uss-hopper/assessment-1-GinoVillalpando" class="text-dark" target="_blank"><strong>GitHub Repository </strong></a>
 						</li>
 					</ul>
 				</div>
-				<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-					<strong>CNM Ingenuity (October 2019 – December 2019)</strong>
+				<div class="tab-pane fade mx-auto body-text-size" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+					<a href="https://deepdivecoding.com/fullstack/" class="text-black" target="_blank"><strong>Fullstack Bootcamp at CNM Ingenuity (October 2019 – December 2019)</strong></a>
 					<p class="body-text-size">This cohort consisted of 2 months to create a web application in collaboration with a group of other
 						cohort classmates using languages such as PHP, mySQL, JSX, HTML, JavaScript, CSS, and skills like Object Oriented Programming. </p>
 					<p class="body-text-size">We also had to create our own personal website during this 2-month period with on-going assignments and assessments to prove our skills.</p>
@@ -154,7 +165,7 @@
 
 
 <!-- horizontal nav pills with objective, skills/languages, project links to projects - MOBILE -->
-<section class="d-lg-none py-4 bg-light text-dark">
+<section class="d-lg-none py-3 bg-light text-dark">
 	<ul class="nav nav-pills my-2" id="pills-tab" role="tablist">
 		<li class="nav-item ml-auto">
 			<a class="nav-link active bg-dark-gradient px-2 mx-1 text-white" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><h6>Objective</h6></a>
@@ -222,14 +233,11 @@
 <section>
 	<div class="accordion d-lg-none" id="accordionExample">
 		<div class="card bg-dark text-white">
-			<div class="card-header" id="headingOne">
-				<h2 class="mb-0">
-					<button class="btn text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						Deep Dive Coding Graduate
-					</button>
-				</h2>
-			</div>
+			<button class="btn text-white p-4 body-text-size" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					Deep Dive Coding Graduate
+			</button>
 		</div>
+	</div>
 		<div id="collapseOne" class="collapse active" aria-labelledby="headingOne" data-parent="#accordionExample">
 			<div class="card-body">
 				<strong>CNM Ingenuity (October 2019 – December 2019)</strong>
@@ -238,15 +246,10 @@
 				<p class="body-text-size">We also had to create our own personal website during this 2-month period with on-going assignments and assessments to prove our skills.</p>
 			</div>
 		</div>
-	</div>
 	<div class="card bg-dark text-white d-lg-none">
-		<div class="card-header" id="headingTwo">
-			<h2 class="mb-0">
-				<button class="btn text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					Collapsible Group Item #2
-				</button>
-			</h2>
-		</div>
+		<button class="btn text-white collapsed p-4 body-text-size" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				Collapsible Group Item #2
+		</button>
 		<div id="collapseTwo" class="collapse m-0 bg-secondary" aria-labelledby="headingTwo" data-parent="#accordionExample">
 			<div class="card-body">
 				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
@@ -259,7 +262,9 @@
 		</div>
 	</div>
 </section>
-<div class="row container-fluid mx-auto bg-dark">
+
+<!--headers for video and contact form-->
+<div class="row container-fluid mx-auto bg-dark padding-video-contact">
 	<div class="col-lg-7 bg-dark">
 		<header><h3 class="text-white text-center mb-0 mt-1 display-4">My Creative Side</h3></header>
 	</div>
@@ -364,7 +369,7 @@
 </section>
 
 <!-- footer for pwp -->
-<section class="animated fadeInUp slow container-fluid sticky-bottom fixed-bottom shadow bg-footer mb-0 py-1 align-items-center">
+<section class="container-fluid fixed-bottom shadow bg-footer mb-0 py-1">
 	<blockquote class="text-center mb-0">
 		<footer>
 				<div class="row mx-auto">

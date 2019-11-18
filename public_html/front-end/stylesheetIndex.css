@@ -26,6 +26,14 @@ body {
 	color: white;
 	background-color: rgb(24, 26, 27);
 	height: 100%;
+	overflow-x: hidden;
+	padding-top: 70px;
+}
+
+@media screen and (max-width: 768px){
+	body {
+		padding-top: 0;
+	}
 }
 
 button {
@@ -89,4 +97,27 @@ form {
 
 .text-black {
 	color: black;
+}
+
+.dropdown-menu {
+	right: 0;
+	left: auto;
+}
+
+.header-text-size {
+	font-size: 36px;
+}
+
+.py-3 {
+	padding-bottom: 6rem!important;
+	padding-top: 6rem!important;
+}
+
+.bg-drop-text {
+	background-color: rgba(75, 75, 75, 0.8);
+}
+
+.padding-video-contact {
+	padding-bottom: 1.5rem;
+	padding-top: 3.2rem;
 }
