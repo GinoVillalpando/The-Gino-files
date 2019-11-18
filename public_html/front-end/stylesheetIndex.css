@@ -83,6 +83,10 @@ form {
 	text-shadow: 2px 2px 4px white!important;
 }
 
+.bg-header {
+	background-color: rgba(20, 20, 20, 0.95);
+}
+
 .bg-dark-gradient {
 	background: linear-gradient(#5b5b5b, #333333);
 }
@@ -92,7 +96,7 @@ form {
 }
 
 .bg-footer {
-	background: linear-gradient(#262626, #404040);
+	background: rgba(20, 20, 20, 0.95);
 }
 
 .text-black {
@@ -114,7 +118,7 @@ form {
 }
 
 .bg-drop-text {
-	background-color: rgba(75, 75, 75, 0.8);
+	background-color: rgba(30, 30, 30, 0.8);
 }
 
 .padding-video-contact {

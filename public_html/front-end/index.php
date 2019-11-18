@@ -39,7 +39,7 @@
 
 <!-- nav bar with icon image, a header with name and an icon for the menu that shows on small screens -->
 <div class="container-fluid p-0 text-white">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark-gradient p-1 fixed-top">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-header p-1 fixed-top">
 		<a class="navbar-brand p-0 ml-4" href="index.php">
 			<img src="imagesIndex/navbarIcon.png" width="40" height="40" class="animated zoomIn d-inline-block align-top mt-1 mr-2" alt="Nav bar Icon" />
 			<h5 class="animated bounceInDown active d-inline-block text-center display-4 header-text-size mb-0">Gino</h5> <h5 class="animated bounceInDown active d-lg-none d-inline-block text-center display-4 header-text-size mb-0">V.</h5> <h5 class="animated bounceInDown active d-none d-lg-inline-block text-center display-4 header-text-size mb-0">Villalpando</h5></a>
@@ -342,7 +342,7 @@
 				<!-- Modal displaying whether or not the email was sent -->
 				<div class="modal fade" id="popUpModal" tabindex="-1" role="dialog" aria-labelledby="output-area" aria-hidden="true">
 					<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="modal-content bg-dark-gradient">
+						<div class="modal-content bg-header">
 							<div class="modal-header">
 								<p class="modal-title" id="output-area"> </p>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
