@@ -213,7 +213,7 @@
 			<div class="container-fluid">
 				<div class="row mx-auto d-block">
 					<div class ="col-xs-6">
-						<ul>
+						<ul class="body-text-size">
 							<li>mySQL</li>
 							<li>PHP</li>
 							<li>JavaScript</li>
@@ -225,20 +225,21 @@
 				</div>
 			</div>
 		</div>
-		<div class="tab-pane fade" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab"><ul class="body-text-size">
+		<div class="tab-pane fade" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab">
+			<ul>
 				<li class="mb-3">Community CookBook <br/>(PHP, mySQL, JSX, JavaScript, OOP)<br/>
 					<em>This is a web application where users can search a directory for recipes or post a recipe of their own and receive interactions.</em><br/>
 					<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/community-cookbook/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
 					<a href="https://github.com/TheDeepDiveDawgs/community-cookbook" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
 				</li>
-				<li>Personal Webpage Project <br/>(PHP, HTML, CSS, Bootstrap, jQuery)<br/>
-					<em class="mb-3">A portfolio webpage that showcases my developer skills and information on my education. </em><br/>
+				<li class="mb-3">Personal Webpage Project <br/>(PHP, HTML, CSS, Bootstrap, jQuery)<br/>
+					<em>A portfolio webpage that showcases my developer skills and information on my education. </em><br/>
 					<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/The-Gino-Files/public_html/front-end/" class="text-dark" target="_blank"><strong>Deployment, </strong></a>
 					<a href="https://github.com/GinoVillalpando/The-Gino-files" class="text-dark d-inline-block mx-auto" target="_blank"><strong>GitHub Repository </strong></a>
 				</li>
 				<li class="mb-3">Deep Dive Coding Assessment <br/>
 					<em>95/100</em><br/>
-					(using PHP, mySQL, Object Oriented Programming)<br/>
+					(using PHP, mySQL, OOP)<br/>
 					<em>95/100</em><br/>
 					<em>A one hour assessment where I had to build a database and table class that will insert data into the database and instantiating the object.</em><br/>
 					<a href="https://bootcamp-coders.cnm.edu/~gvillalpando/assessment-1-GinoVillalpando/" class="text-dark d-xs-inline-block mx-auto" target="_blank"><strong>Deployment, </strong></a>
