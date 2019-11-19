@@ -194,10 +194,10 @@
 			<a class="nav-link active bg-dark-gradient px-2 mx-1 text-white" id="pills-objective-tab" data-toggle="pill" href="#pills-objective" role="tab" aria-controls="pills-objective" aria-selected="true"><h6>Objective</h6></a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link px-2 bg-dark-gradient text-white" id="pills-profile-tab" data-toggle="pill" href="#pills-languages" role="tab" aria-controls="pills-languages" aria-selected="false"><h6>Skills/Languages</h6></a>
+			<a class="nav-link px-2 bg-dark-gradient text-white" id="pills-languages-tab" data-toggle="pill" href="#pills-languages" role="tab" aria-controls="pills-languages" aria-selected="false"><h6>Skills/Languages</h6></a>
 		</li>
 		<li class="nav-item mr-auto">
-			<a class="nav-link px-2 mx-1 bg-dark-gradient text-white" id="pills-contact-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects" aria-selected="false"><h6>Projects</h6></a>
+			<a class="nav-link px-2 mx-1 bg-dark-gradient text-white" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects" aria-selected="false"><h6>Projects</h6></a>
 		</li>
 	</ul>
 	<div class="tab-content my-4 mx-4" id="pills-tabContent">
