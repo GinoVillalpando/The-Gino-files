@@ -65,7 +65,8 @@
 					<a class="nav-link mx-4" href="#contactMe2">Contact<hr/></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link mx-4" href="downloadable-resume/Gino-Villalpando-Resume.pdf" download="Gino-resume">Resume<hr/></a>
+					<a class="nav-link mx-4" href="downloadable-resume/Gino-Villalpando-Resume.pdf" download="Gino-resume">
+						Resume<img src="imagesIndex/download-icon.png" alt="download icon" class="pl-1 pb-2"/><hr/></a>
 				</li>
 				<li class="nav-item dropdown pb-4">
 					<a class="nav-link dropdown-toggle mx-4" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -88,7 +89,7 @@
 <section>
 	<div class="jumbotron-fluid py-5 px-5 intro-background bg-dark mx-auto d-block text-white">
 		<div class="bg-drop-text p-4">
-			<h1 class="animated bounceInLeft display-4">Visionary Developer For The Future.</h1>
+			<h1 class="animated bounceInLeft display-4 pr-3">Visionary Developer For The Future.</h1>
 			<p class="lead animated bounceInLeft ">Compassionate learner of programming with a genuine interest in technological advances.</p>
 			<hr class="my-4" />
 			<a class="animated bounceInLeft btn btn-dark text-white btn-lg" href="#aboutMe" role="button">Learn more</a>

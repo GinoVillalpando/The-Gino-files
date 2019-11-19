@@ -1,136 +1,145 @@
-.intro-background {
-	background-image: url("https://images.unsplash.com/photo-1563628631561-cc80533f6826?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1345&q=80");
-	background-size: cover;
-	background-position-y: 70%;
-	background-position-x: center;
-}
 
-.py-5 {
-	padding-bottom: 20.5rem!important;
-	padding-top: 10rem!important;
-}
+	.intro-background {
+		background-image: url("https://images.unsplash.com/photo-1563628631561-cc80533f6826?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1345&q=80");
+		background-size: cover;
+		background-position-y: 70%;
+		background-position-x: center;
+	}
 
-/**
-text shadows for bootstrap's .text-white class
- */
-.text-white {
-	text-shadow: 3px 3px 5px #000000;
-}
+	.py-5 {
+		padding-bottom: 20.5rem!important;
+		padding-top: 10rem!important;
+	}
 
-html {
-	height: 100%;
-}
+	/**
+	text shadows for bootstrap's .text-white class
+	 */
+	.text-white {
+		text-shadow: 3px 3px 5px #000000;
+	}
 
-body {
-	position: relative;
-	color: white;
-	background-color: rgb(24, 26, 27);
-	height: 100%;
-	overflow-x: hidden;
-}
+	html {
+		height: 100%;
+	}
 
-@media screen and (max-width: 768px){
 	body {
-		padding-top: 0;
+		position: relative;
+		color: white;
+		background-color: rgb(24, 26, 27);
+		height: 100%;
+		overflow-x: hidden;
+	}
+
+	@media screen and (max-width: 768px){
+		body {
+			padding-top: 0;
+		}
+	}
+
+	button {
+		background-color: transparent;
+	}
+
+	.bg-secondary {
+		background-color: rgb(24, 26, 27)!important;
+	}
+
+	.bg-color-contact {
+		background-color: indigo;
+	}
+
+
+	form {
+		align-content: center;
+		margin-top: 2em;
+	}
+
+	.mb-5 {
+		margin-bottom: 5rem!important;
+	}
+
+	.pb-5 {
+		padding-bottom: 6rem!important;
+	}
+
+	.bg-dark {
+		background-color: #333333!important;
+	}
+
+	.btn-dark {
+		background-color: #333333!important;
+	}
+
+	.navbar-brand {
+		margin-right: 0.1rem!important;
+	}
+
+	.body-text-size {
+		font-size: 20px;
+	}
+
+	.alert-success {
+		color: black!important;
+		text-shadow: 2px 2px 4px white!important;
+	}
+
+	.bg-header {
+		background-color: rgba(20, 20, 20, 0.98);
+	}
+
+	.bg-dark-gradient {
+		background: linear-gradient(#5b5b5b, #333333);
+	}
+
+	.bg-dark-grey {
+		background-color: #5b5b5b;
+	}
+
+	.bg-footer {
+		background: rgba(20, 20, 20, 0.98);
+	}
+
+	.text-black {
+		color: black;
+	}
+
+	.dropdown-menu {
+		right: 0;
+		left: auto;
+	}
+
+	.header-text-size {
+		font-size: 36px;
+	}
+
+	.py-3 {
+		padding-bottom: 6rem!important;
+		padding-top: 6rem!important;
+	}
+
+	.bg-drop-text {
+		background-color: rgba(30, 30, 30, 0.8);
+	}
+
+@media (max-width: 350px) {
+	.bg-drop-text {
+		width: 110%;
+		background-color: rgba(30, 30, 30, 0.8);
 	}
 }
 
-button {
-	background-color: transparent;
-}
+	.padding-video-contact {
+		padding-bottom: .5rem;
+		padding-top: 6rem;
+	}
 
-.bg-secondary {
-	background-color: rgb(24, 26, 27)!important;
-}
+	.padding-horizontal {
+		padding-top: 6rem!important;
+		padding-bottom: 0.5rem!important;
+	}
 
-.bg-color-contact {
-	background-color: indigo;
-}
+	.padding-mobile-contact {
+		padding-bottom: .5rem;
+		padding-top: 4rem;
+	}
 
-
-form {
-	align-content: center;
-	margin-top: 2em;
-}
-
-.mb-5 {
-	margin-bottom: 5rem!important;
-}
-
-.pb-5 {
-	padding-bottom: 6rem!important;
-}
-
-.bg-dark {
-	background-color: #333333!important;
-}
-
-.btn-dark {
-	background-color: #333333!important;
-}
-
-.navbar-brand {
-	margin-right: 0.1rem!important;
-}
-
-.body-text-size {
-	font-size: 20px;
-}
-
-.alert-success {
-	color: black!important;
-	text-shadow: 2px 2px 4px white!important;
-}
-
-.bg-header {
-	background-color: rgba(20, 20, 20, 0.98);
-}
-
-.bg-dark-gradient {
-	background: linear-gradient(#5b5b5b, #333333);
-}
-
-.bg-dark-grey {
-	background-color: #5b5b5b;
-}
-
-.bg-footer {
-	background: rgba(20, 20, 20, 0.98);
-}
-
-.text-black {
-	color: black;
-}
-
-.dropdown-menu {
-	right: 0;
-	left: auto;
-}
-
-.header-text-size {
-	font-size: 36px;
-}
-
-.py-3 {
-	padding-bottom: 6rem!important;
-	padding-top: 6rem!important;
-}
-
-.bg-drop-text {
-	background-color: rgba(30, 30, 30, 0.8);
-}
-
-.padding-video-contact {
-	padding-bottom: .5rem;
-	padding-top: 6rem;
-}
-
-.padding-horizontal {
-	padding-top: 6rem!important;
-	padding-bottom: 0.5rem!important;
-}
-
-.padding-mobile-contact {
-	padding-bottom: .5rem;
-	padding-top: 4rem;
-}
