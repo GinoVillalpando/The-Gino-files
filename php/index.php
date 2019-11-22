@@ -1,6 +1,6 @@
 <?php
 /**
- * index.php
+ * index.html
  *
  * This file handles secure mail transport using the Swiftmailer
  * library with Google reCAPTCHA integration.
@@ -89,8 +89,7 @@ try {
 
 
 	// report a successful send!
-
-	echo "<div role=\"alert\">Email successfully sent.</div>";
+	echo "<div role=\"alert\" class=\"alert-success\">Email successfully sent.</div>";
 
 } catch(Exception $exception) {
 	echo "<div class=\"alert alert-danger text-white\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . " " . $exception->getFile() . "</div>";
