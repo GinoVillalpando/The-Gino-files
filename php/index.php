@@ -89,8 +89,8 @@ try {
 
 
 	// report a successful send!
-	echo "<div role=\"alert\" class=\"alert-success\">Email successfully sent.</div>";
+	echo "<div role=\"dialog\" class=\"alert-success\">Email successfully sent.</div>";
 
 } catch(Exception $exception) {
-	echo "<div class=\"alert alert-danger text-white\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . " " . $exception->getFile() . "</div>";
+	echo "<div class=\"alert alert-danger text-white\" role=\"dialog\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . " " . $exception->getFile() . "</div>";
 }

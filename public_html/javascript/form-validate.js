@@ -67,7 +67,7 @@ $(document).ready(function(){
 					$("#output-area").html(ajaxOutput);
 
 					// reset the form if it was successful
-					if($(".alert-success").length >= 1) {
+					if($(".modal-title").length >= 1) {
 						$("#gino-contact-form")[0].reset();
 					}
 				}

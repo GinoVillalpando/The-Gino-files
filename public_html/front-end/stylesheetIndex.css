@@ -121,10 +121,17 @@
 		background-color: rgba(30, 30, 30, 0.8);
 	}
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
 	.bg-drop-text {
 		width: 110%;
 		background-color: rgba(30, 30, 30, 0.8);
+	}
+	.nav-link {
+		padding: .5rem .35rem;
+	}
+
+	.display-4 {
+		font-size: 2.0rem!important;
 	}
 }
 
