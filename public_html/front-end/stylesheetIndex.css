@@ -117,17 +117,28 @@
 		padding-top: 6rem!important;
 	}
 
+	.margin-recaptcha {
+		margin-left: 1rem!important;
+		margin-right: 1rem!important;
+	}
+
 	.bg-drop-text {
 		background-color: rgba(30, 30, 30, 0.8);
 	}
 
+
 @media (max-width: 400px) {
 	.bg-drop-text {
-		width: 110%;
 		background-color: rgba(30, 30, 30, 0.8);
 	}
+
 	.nav-link {
-		padding: .5rem .35rem;
+		padding: .5rem .10rem;
+	}
+
+	.margin-recaptcha {
+		margin-left: 0!important;
+		margin-right: 0!important;
 	}
 
 	.display-4 {
@@ -153,4 +164,5 @@
 	.alert-success {
 		color: white;
 	}
+
 
