@@ -132,6 +132,10 @@
 			padding-top: 6rem!important;
 		}
 
+		.display-4 {
+			font-size: 2.5rem!important;
+		}
+
 		.intro-background {
 			background: url("imagesIndex/jumbotron-image.jpg");
 			background-size: cover;
@@ -140,7 +144,7 @@
 		}
 	}
 
-@media (max-width: 400px) {
+@media (max-width: 330px) {
 	.bg-drop-text {
 		background-color: rgba(30, 30, 30, 0.8);
 	}
@@ -171,7 +175,7 @@
 	}
 
 	.display-4 {
-		font-size: 2.6rem!important;
+		font-size: 1.6rem!important;
 	}
 }
 
