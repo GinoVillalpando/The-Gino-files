@@ -1,8 +1,8 @@
 
 	.intro-background {
-		background: url("https://images.unsplash.com/photo-1563628631561-cc80533f6826?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1345&q=80");
+		background: url("imagesIndex/jumbotron-image.jpg");
 		background-size: cover;
-		background-position-y: 60%;
+		background-position-y: 65%;
 		background-position-x: center;
 	}
 
@@ -126,10 +126,35 @@
 		background-color: rgba(30, 30, 30, 0.8);
 	}
 
+	@media (max-width: 450px) {
+		.py-5 {
+			padding-bottom: 20.5rem!important;
+			padding-top: 6rem!important;
+		}
+
+		.intro-background {
+			background: url("imagesIndex/jumbotron-image.jpg");
+			background-size: cover;
+			height: 100vh;
+			background-position-x: center;
+		}
+	}
 
 @media (max-width: 400px) {
 	.bg-drop-text {
 		background-color: rgba(30, 30, 30, 0.8);
+	}
+
+	.py-5 {
+		padding-bottom: 20.5rem!important;
+		padding-top: 4rem!important;
+	}
+
+	.intro-background {
+		background: url("imagesIndex/jumbotron-image.jpg");
+		background-size: cover;
+		height: 100vh;
+		background-position-x: center;
 	}
 
 	.nav-link {
