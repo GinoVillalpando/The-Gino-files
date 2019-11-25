@@ -78,6 +78,10 @@
 		font-size: 20px;
 	}
 
+	.education-text {
+		font-size: 14px;
+	}
+
 	.alert-success {
 		color: black!important;
 		text-shadow: 2px 2px 4px white!important;
