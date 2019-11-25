@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 		// setup handling of form errors
 		debug: true,
-		errorClass: "alert alert-danger",
+		errorClass: "alert justify-content-end",
 		errorLabelContainer: "#output-area",
 		errorElement: "div",
 
