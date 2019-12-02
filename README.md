@@ -26,3 +26,6 @@ Overall, you should be a little bit more specific with your content, and a littl
 The technical details of this project are good.  I think that this will make a good PWP.  When you get to the actual CSS, you'll get to put those visual design skills to work in a very positive way.
 
 **This milestone grades out at a Tier III**
+
+## Milestone 4 feedback
+Looks good! Design follows the intended content strategy. Very solid git hygiene. No apparent issues with rendering. Submitted on time/early. This passes Tier IV.
