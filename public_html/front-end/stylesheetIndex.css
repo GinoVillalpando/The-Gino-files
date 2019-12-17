@@ -221,4 +221,14 @@
 		list-style: none;
 	}
 
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: #5b5b5b;
+	}
+
 
