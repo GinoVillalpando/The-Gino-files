@@ -231,4 +231,9 @@
 		color: #5b5b5b;
 	}
 
+	a h4 strong:hover {
+		text-decoration: none;
+		color: #5b5b5b;
+	}
+
 
