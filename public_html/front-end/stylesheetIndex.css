@@ -4,6 +4,7 @@
 		background-size: cover;
 		background-position-y: 85%;
 		background-position-x: center;
+		height: 100vh;
 	}
 
 	.py-5 {
@@ -117,8 +118,8 @@
 	}
 
 	.py-3 {
-		padding-bottom: 6rem!important;
-		padding-top: 6rem!important;
+		padding-bottom: 11rem!important;
+		padding-top: 11rem!important;
 	}
 
 	.margin-recaptcha {
