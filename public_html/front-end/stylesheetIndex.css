@@ -2,8 +2,8 @@
 	.intro-background {
 		background: url("imagesIndex/jumbotron-image.jpg") no-repeat center center fixed;
 		background-size: cover;
-		background-position-y: 85%;
-		background-position-x: center;
+		background-position-y: 45%;
+		background-position-x: cover;
 		height: 100vh;
 	}
 
