@@ -2,8 +2,8 @@
 	.intro-background {
 		background: url("imagesIndex/jumbotron-image.jpg") no-repeat center center fixed;
 		background-size: cover;
-		background-position-y: 45%;
-		background-position-x: cover;
+		background-position-y: 85%;
+		background-position-x: center;
 		height: 100vh;
 	}
 
@@ -65,6 +65,7 @@
 
 	.bg-dark {
 		background-color: #333333!important;
+		border-color: white!important;
 	}
 
 	.btn-dark {
@@ -141,7 +142,7 @@
 
 		.padding-mobile-contact {
 			padding-bottom: .5rem;
-			padding-top: 4rem!important;
+			padding-top: 6rem!important;
 		}
 
 		form {
@@ -160,7 +161,7 @@
 		.intro-background {
 			background: url("imagesIndex/jumbotron-image.jpg");
 			background-size: cover;
-			height: 100vh;
+			height: 90vh;
 			background-position-x: center;
 		}
 	}
@@ -178,7 +179,7 @@
 	.intro-background {
 		background: url("imagesIndex/jumbotron-image.jpg");
 		background-size: cover;
-		height: 100vh;
+		height: 110vh;
 		background-position-x: center;
 	}
 
@@ -202,7 +203,7 @@
 
 	.padding-video-contact {
 		padding-bottom: .5rem;
-		padding-top: 6rem;
+		padding-top: 10rem!important;
 	}
 
 	.padding-horizontal {
@@ -237,5 +238,3 @@
 		text-decoration: none;
 		color: #5b5b5b;
 	}
-
-

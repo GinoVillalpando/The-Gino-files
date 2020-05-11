@@ -37,6 +37,17 @@
 	<!-- Google reCAPTCHA -->
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 
+	[200~<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166088013-1"></script>
+	<script>
+		  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-166088013-1');
+	</script>
+
+
 	<!-- my style sheet-->
 	<link rel="stylesheet" type="text/css" href="front-end/stylesheetIndex.css">
 
@@ -48,7 +59,7 @@
 
 <!-- nav bar with icon image, a header with name and an icon for the menu that shows on small screens -->
 <div class="container-fluid p-0 text-white">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-header p-1 fixed-top">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-header p-2 fixed-top">
 		<a class="navbar-brand p-0 ml-4" href="index.html">
 			<img src="front-end/imagesIndex/navbarIcon.png" class="animated zoomIn d-inline-block align-top mt-1 mr-2" alt="Nav bar Icon" />
 			<h5 class="animated bounceInDown active d-inline-block text-center display-3 header-text-size mb-0">Gino</h5> <h5 class="animated bounceInDown active d-lg-none d-inline-block text-center display-3 header-text-size mb-0">V.</h5> <h5 class="animated bounceInDown active d-none d-lg-inline-block text-center display-4 header-text-size mb-0">Villalpando</h5></a>
@@ -100,53 +111,11 @@
 	<div class="row mx-auto">
 		<div class="col-4 my-3">
 			<div class="nav flex-column rounded shadow nav-pills bg-dark text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-				<a  class="nav-link shadow active bg-dark py-4 text-white" 
-					id="v-pills-objective-tab" 
-					data-toggle="pill" 
-					href="#v-pills-objective" 
-					role="tab" 
-					aria-controls="v-pills-objective" aria-selected="true">
-						<h6>Objective</h6>
-				</a>
-
-				<a class="nav-link shadow bg-dark py-4 text-white" 
-					id="v-pills-languages-tab" 
-					data-toggle="pill" 
-					href="#v-pills-languages" 
-					role="tab" 
-					aria-controls="v-pills-languages" 
-					aria-selected="false">
-						<h6>Technologies / Languages</h6>
-				</a>
-
-				<a  class="nav-link shadow bg-dark py-4 text-white" 
-					id="v-pills-projects-tab" 
-					data-toggle="pill" 
-					href="#v-pills-projects" 
-					role="tab" 
-					aria-controls="v-pills-projects" 
-					aria-selected="false">
-						<h6>Projects</h6>
-				</a>
-
-				<a  class="nav-link shadow bg-dark py-4 text-white" 
-					id="v-pills-education-tab" 
-					data-toggle="pill" 
-					href="#v-pills-education" 
-					role="tab" 
-					aria-controls="v-pills-education" aria-selected="false">
-						<h6>Education</h6>
-				</a>
-
-				<a class="nav-link shadow bg-dark py-4 text-white" 
-					id="v-pills-skills-tab" 
-					data-toggle="pill" 
-					href="#v-pills-skills" 
-					role="tab" 
-					aria-controls="v-pills-skills" aria-selected="false">
-						<h6>Other skills</h6>
-				</a>
-				
+				<a class="nav-link shadow active bg-dark py-4 text-white" id="v-pills-objective-tab" data-toggle="pill" href="#v-pills-objective" role="tab" aria-controls="v-pills-objective" aria-selected="true"><h6>Objective</h6></a>
+				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-languages-tab" data-toggle="pill" href="#v-pills-languages" role="tab" aria-controls="v-pills-languages" aria-selected="false"><h6>Technologies / Languages</h6></a>
+				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-projects" aria-selected="false"><h6>Projects</h6></a>
+				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-education-tab" data-toggle="pill" href="#v-pills-education" role="tab" aria-controls="v-pills-education" aria-selected="false"><h6>Education</h6></a>
+				<a class="nav-link shadow bg-dark py-4 text-white" id="v-pills-skills-tab" data-toggle="pill" href="#v-pills-skills" role="tab" aria-controls="v-pills-skills" aria-selected="false"><h6>Other skills</h6></a>
 			</div>
 		</div>
 		<div class="col-8 my-2 px-2 d-block">
@@ -169,18 +138,19 @@
 						<div class="row body-text-size">
 							<div class ="col-xs-6">
 								<ul>
-									<li>MySQL databases</li>
+									<li>MySQL</li>
+									<li>Python</li>
+									<li>JavaScript</li>
 									<li>PHP</li>
 									<li>Docker</li>
-									<li>Writing Unit Tests</li>
+									<li>Unit Testing</li>
 									<li>Writing REST APIs</li>
-									<li>JavaScript</li>
-									<li>Version Control Git Bash</li>
+									<li>Git as Version Control</li>
 									<li>React Redux and Axios</li>
 									<li>Agile Project Management</li>
 									<li>HTML5</li>
 									<li>Bootstrap</li>
-									<li>CSS</li>
+									<li>CSS3</li>
 								</ul>
 							</div>
 						</div>
@@ -188,8 +158,22 @@
 				</div>
 				<div class="tab-pane fade mx-auto" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">
 
-				<ul class="card bg-dark text-white py-2 px-4 body-text-size">
-						<li class="mb-3"><a href="https://github.com/GinoVillalpando/covid-tracking" target="_blank"><h4 class="card-title text-white text-center"><strong> Covid Tracker </strong></h4></a><br/>
+					<ul class="card bg-dark text-white py-2 px-4 body-text-size">
+						<li class="mb-3"><a href="https://fbvstweet.xyz" target="_blank">
+							<h4 class="card-title text-white text-center p-4"><strong> FBvsTweet </strong></h4></a><br/>
+							<p class="card-body">Technologies: Python, Folium, Leaflet and Parsed data with Pandas </p>
+							<em><p>Data visualisation using datasets provided by RS21 that contains sample data from 2014 of Facebook Places people have checked in at.
+								Also used a sample of tweets that shared their location here in New Mexico. I used both data sets to visualize a correlation between the Facebook places people have checked in at and where people have tweeted.
+							</p></em><br/>
+							<div class="text-center">
+								<a href="https://fbvstweet.xyz" target="_blank"><strong>Deployment</strong></a>
+							</div>
+						</li>
+					</ul>
+
+					<ul class="card bg-dark text-white py-2 px-4 body-text-size">
+						<li class="mb-3"><a href="https://github.com/GinoVillalpando/covid-tracking" target="_blank">
+							<h4 class="card-title text-white text-center p-4"><strong> Covid Tracker </strong></h4></a><br/>
 							<p class="card-body">Technologies: Python, Folium, Leaflet and Parsing data with Pandas </p>
 							<em><p>Data visualisation using the covidtracker.com API to track current real time statistics on the COVID-19 pandemic. 
 							Created a map using the Folium and Leaflet libraries and parsed the data using Pandas library. Project is still under development.
@@ -200,8 +184,9 @@
 						</li>
 					</ul>
 					
+					
 					<ul class="card bg-dark text-white py-2 px-4 body-text-size">
-						<li class="mb-3"><a href="https://gutternm.com" target="_blank"><h4 class="card-title text-white text-center"><strong> Estrada Development, LLC. </strong></h4></a><br/>
+						<li class="mb-3"><a href="https://gutternm.com" target="_blank"><h4 class="card-title text-white text-center p-4"><strong> Estrada Development, LLC. </strong></h4></a><br/>
 							<p class="card-body">Technologies: Wordpress, Docker, Adobe Photoshop, JavaScript, HTML, CSS, Bootstrap, </p>
 							<em><p>Website for the client Estrada Development, LLC. to provide their clients an accessible mobile-responsive website to contact and learn
 								more about their services.
@@ -213,7 +198,7 @@
 					</ul>
 					
 					<ul class="card bg-dark text-white py-2 px-4 body-text-size">
-						<li class="mb-3"><a href="https://abqcookbook.com/" target="_blank"><h4 class="card-title text-white text-center"><strong> ABQCookBook </strong></h4></a><br/>
+						<li class="mb-3"><a href="https://abqcookbook.com/" target="_blank"><h4 class="card-title text-white text-center p-4"><strong> ABQCookBook </strong></h4></a><br/>
 							<p class="card-body">Technologies: PHP, MySQL, React, Redux, Axios, JavaScript, Docker, Unit Testing, Git</p>
 							<em><p>This is a web application where users can search a directory for recipes or post a recipe of their own and receive interactions.</p></em><br/>
 							<div class="text-center">
@@ -224,7 +209,7 @@
 					</ul>
 
 					<ul class="card bg-dark text-white py-2 px-4 body-text-size">
-						<li class="mb-3"><h4 class="card-title text-center"><strong>Portfolio</strong></h4> <br/>
+						<li class="mb-3"><h4 class="card-title text-center p-4"><strong>Portfolio</strong></h4> <br/>
 							<p class="card-body">Technologies: PHP, HTML5, CSS, Bootstrap, jQuery, Docker</p>
 								<p><em class="my-2">A portfolio webpage that showcases my developer skills and information on my education. </em></p><br/>
 							<div class="text-center">
@@ -233,7 +218,7 @@
 						</li>
 					</ul>
 					<ul class="card bg-dark text-white py-2 px-4 body-text-size">
-						<li class="mb-3"><h4 class="card-title text-center"><strong>Backend Assessment</strong></h4> <br/>
+						<li class="mb-3"><h4 class="card-title text-center p-4"><strong>Backend Assessment</strong></h4> <br/>
 							<div class="text-center"><em>Grade: 95/100</em></div><br/>
 							<p class="card-body">Technologies: Object-Oriented Programming in PHP and MySQL databases.</p>
 								<p><em>Four-hour assessment where I had to build a database and table class that will insert data into the database and instantiating the object.</em></p><br/>
@@ -272,7 +257,7 @@
 
 
 <!-- horizontal nav pills with objective, skills/languages, project links to projects - MOBILE -->
-<section class="d-lg-none bg-light text-dark">
+<section class="d-lg-none bg-light pt-5 text-dark">
 	<ul class="nav nav-pills padding-horizontal" id="pills-tab" role="tablist">
 		<li class="nav-item ml-auto">
 			<a class="nav-link active bg-dark-gradient mx-1 text-white" id="pills-objective-tab" data-toggle="pill" href="#pills-objective" role="tab" aria-controls="pills-objective" aria-selected="true"><h6>Objective</h6></a>
@@ -303,27 +288,56 @@
 				<div class="row mx-auto d-block">
 					<div class ="col-xs-6">
 						<ul class="body-text-size">
-							<li>MySQL databases</li>
+							<li>MySQL</li>
+							<li>Python</li>
+							<li>JavaScript</li>
 							<li>PHP</li>
 							<li>Docker</li>
-							<li>Writing Unit Tests</li>
+							<li>Unit Testing</li>
 							<li>Writing REST APIs</li>
-							<li>JavaScript</li>
-							<li>Version Control Git Bash</li>
+							<li>Git as Version Control</li>
 							<li>React Redux and Axios</li>
 							<li>Agile Project Management</li>
 							<li>HTML5</li>
 							<li>Bootstrap</li>
-							<li>CSS</li>
+							<li>CSS3</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="tab-pane fade" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab">
+
 			
 			<ul class="card bg-dark text-white py-2 px-4 body-text-size">
-				<li class="mb-3"><a href="https://gutternm.com" target="_blank"><h4 class="card-title text-white text-center"><strong> Estrada Development, LLC. </strong></h4></a><br/>
+				<li class="mb-3"><a href="https://fbvstweet.xyz" target="_blank">
+					<h4 class="card-title text-white text-center p-4"><strong> FBvsTweet </strong></h4></a><br/>
+					<p class="card-body">Technologies: Python, Folium, Leaflet and Parsed data with Pandas </p>
+					<em><p>Data visualisation using datasets provided by RS21 that contains sample data from 2014 of Facebook Places people have checked in at.
+						Also used a sample of tweets that shared their location here in New Mexico. I used both data sets to visualize a correlation between the Facebook places people have checked in at and where people have tweeted.
+					</p></em><br/>
+					<div class="text-center">
+						<a href="https://fbvstweet.xyz" target="_blank"><strong>Deployment</strong></a>
+					</div>
+				</li>
+			</ul>
+			
+			<ul class="card bg-dark text-white py-2 px-4 body-text-size">
+				<li class="mb-3"><a href="https://github.com/GinoVillalpando/covid-tracking" target="_blank">
+					<h4 class="card-title text-white text-center p-4"><strong> Covid Tracker </strong></h4></a><br/>
+					<p class="card-body">Technologies: Python, Folium, Leaflet and Parsing data with Pandas </p>
+					<em><p>Data visualisation using the covidtracker.com API to track current real time statistics on the COVID-19 pandemic. 
+					Created a map using the Folium and Leaflet libraries and parsed the data using Pandas library. Project is still under development.
+					</p></em><br/>
+					<div class="text-center">
+						<a href="https://github.com/GinoVillalpando/covid-tracking" target="_blank"><strong>GitHub Repository</strong></a>
+					</div>
+				</li>
+			</ul>
+			
+			
+			<ul class="card bg-dark text-white py-2 px-4 body-text-size">
+				<li class="mb-3"><a href="https://gutternm.com" target="_blank"><h4 class="card-title text-white text-center p-4"><strong> Estrada Development, LLC. </strong></h4></a><br/>
 					<p class="card-body">Technologies: Wordpress, Docker, Adobe Photoshop, JavaScript, HTML, CSS, Bootstrap, </p>
 					<em><p>Website for the client Estrada Development, LLC. to provide their clients an accessible mobile-responsive website to contact and learn
 						more about their services.
@@ -335,7 +349,7 @@
 			</ul>
 			
 			<ul class="card bg-dark text-white py-2 px-4 body-text-size">
-				<li class="mb-3"><a href="https://abqcookbook.com/" target="_blank"><h4 class="card-title text-white text-center"><strong> ABQCookBook </strong></h4></a><br/>
+				<li class="mb-3"><a href="https://abqcookbook.com/" target="_blank"><h4 class="card-title text-white text-center p-4"><strong> ABQCookBook </strong></h4></a><br/>
 					<p class="card-body">Technologies: PHP, MySQL, React, Redux, Axios, JavaScript, Docker, Unit Testing, Git Bash (version control)</p>
 					<em><p>This is a web application where users can search a directory for recipes or post a recipe of their own and receive interactions.</p></em><br/>
 					<div class="text-center">
@@ -346,7 +360,7 @@
 			</ul>
 
 			<ul class="card bg-dark text-white py-2 px-4 body-text-size">
-				<li class="mb-3"><h4 class="card-title text-center"><strong>Portfolio</strong></h4> <br/>
+				<li class="mb-3"><h4 class="card-title text-center p-4"><strong>Portfolio</strong></h4> <br/>
 					<p class="card-body">Technologies: PHP, HTML5, CSS, Bootstrap, jQuery, Docker</p>
 					<p><em class="my-2">A portfolio webpage that showcases my developer skills and information on my education. </em></p><br/>
 					<div class="text-center">
@@ -355,7 +369,7 @@
 				</li>
 			</ul>
 			<ul class="card bg-dark text-white py-2 px-4 body-text-size">
-				<li class="mb-3"><h4 class="card-title text-center"><strong>Backend Assessment</strong></h4> <br/>
+				<li class="mb-3"><h4 class="card-title text-center p-4"><strong>Backend Assessment</strong></h4> <br/>
 					<div class="text-center"><em>Grade: 95/100</em></div><br/>
 					<p class="card-body">Technologies: Object-Oriented Programming in PHP and MySQL databases.</p>
 					<p><em>Four-hour assessment where I had to build a database and table class that will insert data into the database and instantiating the object.</em></p><br/>
@@ -423,7 +437,7 @@
 
 <!-- embedded youtube video showcasing my creative skills-->
 
-<section class=" container-fluid d-block mx-auto mb-auto px-2 bg-dark">
+<section class=" container-fluid d-block mx-auto mb-auto p-3 bg-dark">
 	<div class="container-fluid">
 		<div class="row justify-content-around">
 			<div class="col-lg-7 mx-auto d-inline-block">
@@ -522,7 +536,7 @@
 
 
 <!-- footer for pwp -->
-<section class="container-fluid fixed-bottom shadow bg-footer mb-0 py-1">
+<section class="container-fluid fixed-bottom shadow bg-footer mb-0 p-3">
 	<blockquote class="text-center mb-0">
 		<footer>
 				<div class="row mx-auto">
