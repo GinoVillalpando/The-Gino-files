@@ -12,5 +12,5 @@ services:
          - ./production.conf:/etc/nginx/conf.d/default.conf
          - ./public_html:/usr/share/nginx/html
          - ./dh-param/dhparam-2048.pem:/etc/ssl/certs/dhparam-2048.pem
-         - /docker-volumes/pwp/etc/letsencrypt/live/theginofiles.com/fullchain.pem:/etc/letsencrypt/live/theginofiles.com-0001/fullchain.pem
-         - /docker-volumes/pwp/etc/letsencrypt/live/theginofiles.com/privkey.pem:/etc/letsencrypt/live/theginofiles.com-0001/privkey.pem
+         - /docker-volumes/pwp/etc/letsencrypt/live/theginofiles.com-0001/fullchain.pem:/etc/letsencrypt/live/theginofiles.com-0001/fullchain.pem
+         - /docker-volumes/pwp/etc/letsencrypt/live/theginofiles.com-0001/privkey.pem:/etc/letsencrypt/live/theginofiles.com-0001/privkey.pem
